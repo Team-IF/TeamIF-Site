@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import Home from './pages/Home';
 
-import 'tailwindcss/base.css';
-import 'tailwindcss/components.css.css';
-import 'tailwindcss/utilities.css.css';
+import 'tailwindcss/dist/base.css';
+import 'tailwindcss/dist/components.css';
+import 'tailwindcss/dist/utilities.css';
 
 ReactDOM.render(<Home />, document.getElementById('root'));
 
