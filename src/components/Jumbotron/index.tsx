@@ -12,7 +12,7 @@ const JumbotronStyle = styled.div`
 
 const Jumbotron: React.FC = () => {
   return (
-    <JumbotronStyle className="flex bg-blue-500 min-h-full justify-center items-center">
+    <JumbotronStyle className="flex bg-blue-500 min-h-full justify-center items-center bg-fixed">
       <p className="font-bold text-5xl text-center text-white">멋져보이는 말</p>
     </JumbotronStyle>
   );
