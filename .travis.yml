@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+- stable
+cache:
+  yarn: true
+  directories:
+  - node_modules
+before_install:
+- curl -o- -L https://yarnpkg.com/install.sh | bash
+- export PATH="$HOME/.yarn/bin:$PATH"
+- yarn global add greenkeeper-lockfile
+- yarn install
+install: yarn
+before_script: greenkeeper-lockfile-update
+after_script: greenkeeper-lockfile-upload
+script:
+- yarn run build
