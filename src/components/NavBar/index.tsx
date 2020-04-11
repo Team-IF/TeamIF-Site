@@ -6,7 +6,9 @@ import NavBarHeader from '../../atomics/NavBar/NavBarHeader';
 import NavBarItem from '../../atomics/NavBar/NavBarItem';
 
 const MenuStyle = styled.div<{ isOpen?: boolean }>`
-  display: ${(props) => (props.isOpen ? 'block' : 'none')};
+  @media screen and (max-width: 1024px) {
+    display: ${(props) => (props.isOpen ? 'block' : 'none')};
+  }
 `;
 
 const NavBar: React.FC = () => {
