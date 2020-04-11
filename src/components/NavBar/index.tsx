@@ -10,7 +10,7 @@ const MenuStyle = styled.div<{ isOpen?: boolean }>`
 `;
 
 const NavBar: React.FC = () => {
-  const [isOpen, setOpen] = useState<boolean>(true);
+  const [isOpen, setOpen] = useState<boolean>(false);
 
   return (
     <nav className="flex items-center justify-between flex-wrap bg-blue-700 p-6">
