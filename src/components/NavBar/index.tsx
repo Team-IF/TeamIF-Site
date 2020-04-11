@@ -28,8 +28,9 @@ const NavBar: React.FC = () => {
 
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <MenuStyle isOpen={isOpen}>
-          <NavBarItem>Foo</NavBarItem>
-          <NavBarItem last>Bar</NavBarItem>
+          <NavBarItem>소개</NavBarItem>
+          <NavBarItem>팀원</NavBarItem>
+          <NavBarItem last>지원</NavBarItem>
         </MenuStyle>
       </div>
     </nav>
