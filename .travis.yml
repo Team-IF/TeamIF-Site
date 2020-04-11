@@ -22,5 +22,5 @@ env:
     - secure: ggZ/ytXxcTNM8OiTcZqlUltxwH+grpzqBcV0P1F+dRThbB4oHSSQYG2ZzF1ozbvkpwszcWz3XNUmAJdWexEcK+uO991Qw7wQUP1ME2WNGRdfdi9ey/2eMRB2wEPPkeHa2KMJxkds29NRDX9bmQ+0PHivncRYuOuJbWo7tIasq9wcKDzhaMc185RTountyl6jCT7AbCGSCsQ670DhP39Rcd3Y0jlpwl6GVD2k1OnMQFQY+0NtXKrX/lzsc3bN4s12oowx2CviAmB4cq2GFxa0SnyZvs90gqZNL0GfTxZVSrhnLFvHr7EpEbNOvtTvFnaScstfDO8xkRtz1KTt83WimH5z2OOLA29bzH6ke/fBZFwPgkVHczsnXBtvvOe1Xl2etF5hTsqrfw3LGEJatq3ZizCA3Cb5a8xmsaCLVOHziM+5ciaw7Gs/sxzcGDXrN5Lw3OJy6jMjPnSjfe0X8Hy2IAPi9mejmKi4eIf1mS3GAN3Mw/gM1zn6zqvMVbDiSAtEd1/jMyk9WkfiqINsCv/MdPH9sMiLTriLGeM4rOr1gXRSVZMul4rt/kAUS0aMrB3kJRZPGwoYsstV6Ss0qlMg0Y5DjAuCds83utsBBBnVM2CoxUc56rozhh7+6a8whhA3q0tkefZpsRq1cToaO5Ggui4QIFcryhmRYaQ7P/mCGZw=
 after_success:
   - curl --ftp-create-dirs
-    -T *
-    sftp://${SFTP_USER}:${SFTP_PASSWORD}@${SFTP_ADDRESS}/root/teamif
+    -T build/*
+    ftps://${SFTP_USER}:${SFTP_PASSWORD}@${SFTP_ADDRESS}/root/teamif/
