@@ -22,10 +22,16 @@ const BackgroundStyle = styled.div`
 const Jumbotron: React.FC = () => {
   return (
     <JumbotronContainer className="flex justify-center items-center bg-fixed">
-      <p className="text-5xl text-center text-white">
-        We Make <span className="font-bold">IF</span> to <span className="font-bold">Reality</span>,{' '}
-        <span className="font-bold">Dream</span> to <span className="font-bold">Action</span>
-      </p>
+      <div>
+        <p className="text-5xl text-center text-white">
+          We Make <span className="font-bold">IF</span> to{' '}
+          <span className="font-bold">Reality</span>, <span className="font-bold">Dream</span> to{' '}
+          <span className="font-bold">Action</span>
+        </p>
+        <p className="text-xl text-center text-white">
+          청소년 프로그래밍 팀 Team IF 입니다.
+        </p>
+      </div>
       <BackgroundStyle />
     </JumbotronContainer>
   );
