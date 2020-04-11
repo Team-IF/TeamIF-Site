@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import styled from 'styled-components';
-import NavBarHeader from '../../atomics/NabBar/NabBarHeader';
-import NavBarItem from '../../atomics/NabBar/NavBarItem';
+import NavBarHeader from '../../atomics/NavBar/NavBarHeader';
+import NavBarItem from '../../atomics/NavBar/NavBarItem';
 
 const MenuStyle = styled.div<{ isOpen?: boolean }>`
   display: ${(props) => (props.isOpen ? 'block' : 'none')};
