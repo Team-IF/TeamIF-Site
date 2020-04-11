@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import background from '../../assets/images/background.jpg';
 
-const JumbotronContainer = styled.div`
+const JumbotronContainer = styled.section`
   height: calc(100vh - 4.9em);
   width: 100vw;
 `;
