@@ -17,7 +17,7 @@ script:
 - yarn run build
 deploy:
   provider: pages:git
-  fdqn: teamif.xyz
+  fqdn: teamif.xyz
   target_branch: master
   local_dir: build
   github_token:
