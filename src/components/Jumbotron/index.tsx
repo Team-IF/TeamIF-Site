@@ -29,7 +29,7 @@ const Jumbotron: React.FC = () => {
           <span className="font-bold">Action</span>
         </p>
         <p className="text-xl text-center text-white">
-          청소년 프로그래머 팀 Team IF 입니다.
+          청소년 개발 팀 Team IF 입니다.
         </p>
       </div>
       <BackgroundStyle />
