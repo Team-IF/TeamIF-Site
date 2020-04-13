@@ -16,10 +16,8 @@ after_script: greenkeeper-lockfile-upload
 script:
 - yarn run build
 deploy:
-  repo: Team-IF/teamif.github.io
   provider: pages:git
   fqdn: teamif.xyz
-  target_branch: master
   local_dir: build
   github_token:
     secure: "bF6yI1JWYeiTIVr0KCbee3aUbcQVH37+bdBczKUuhX6r9UTQ/kjf+0r2xJU5Mu3uIkfawmxIvXxCzEbBIHKI+BtkKRM/7dNLfskU8bzx0DpKhuySarjXXcMBP1zexK54BghotwmJO6pXhnX4JMIa3SIDBRw8ft5izsECkaOeTRAOjW6/cTR0AFHZK/o7dGwVaHVYIKG7UKDXepWFhqZkg2Wf4Gq3WJ74
