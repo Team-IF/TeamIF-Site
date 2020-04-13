@@ -1,4 +1,4 @@
-# TeamIF-Site
+# TeamIF-Site [![Build Status](https://travis-ci.com/Team-IF/TeamIF-Site.svg?branch=master)](https://travis-ci.com/Team-IF/TeamIF-Site)
 
 ## Usage
 
