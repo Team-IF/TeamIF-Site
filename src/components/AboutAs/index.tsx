@@ -6,7 +6,7 @@ import PanelBody from '../../atomics/AboutAs/PanelBody';
 
 const AboutAs: React.FC = () => {
   return (
-    <Section className="flex justify-center items-center bg-fixed">
+    <Section id="aboutas" className="flex justify-center items-center bg-fixed">
       <div>
         <p className="font-bold lg:text-5xl text-3xl text-center">
           We Are <span className="text-blue-700">Team IF</span>
