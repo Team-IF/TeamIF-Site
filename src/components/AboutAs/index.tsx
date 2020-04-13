@@ -11,7 +11,7 @@ const AboutAs: React.FC = () => {
         <p className="font-bold lg:text-5xl text-3xl text-center">
           We Are <span className="text-blue-700">Team IF</span>
         </p>
-        <p className="text-xl text-center">Team IF를 소개합니다!</p>
+        <p className="font-bold text-3xl text-center">팀 소개</p>
 
         <div className="flex lg:flex-row flex-col justify-center items-center mt-16">
           <Panel>
