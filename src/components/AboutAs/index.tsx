@@ -3,9 +3,6 @@ import Section from '../../atomics/Section';
 import Panel from './Panel';
 import PanelHeader from '../../atomics/AboutAs/PanelHeader';
 import PanelBody from '../../atomics/AboutAs/PanelBody';
-import iconBalloon from '../../assets/images/Balloon.jpg';
-import iconPictureFrame from '../../assets/images/PictureFrame.jpg';
-import iconGear from '../../assets/images/Gear.jpg';
 
 const AboutAs: React.FC = () => {
   return (
