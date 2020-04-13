@@ -3,6 +3,9 @@ import Section from '../../atomics/Section';
 import Panel from './Panel';
 import PanelHeader from '../../atomics/AboutAs/PanelHeader';
 import PanelBody from '../../atomics/AboutAs/PanelBody';
+import iconBalloon from '../../assets/images/Balloon.jpg';
+import iconPictureFrame from '../../assets/images/PictureFrame.jpg';
+import iconGear from '../../assets/images/Gear.jpg';
 
 const AboutAs: React.FC = () => {
   return (
@@ -17,7 +20,7 @@ const AboutAs: React.FC = () => {
           <Panel>
             <PanelHeader>
               <span role="img" aria-label="Balloon">
-                🎈
+                <img src=url(${iconBalloon}) alt="" width="64" height="64">
               </span>{' '}
               우리는 꿈을 꾸며
             </PanelHeader>
@@ -26,8 +29,8 @@ const AboutAs: React.FC = () => {
 
           <Panel>
             <PanelHeader>
-              <span role="img" aria-label="Drawing">
-                🖼
+              <span role="img" aria-label="PictureFrame">
+                <img src=url(${iconPictureFrame}) alt="" width="64" height="64">
               </span>{' '}
               상상을 이루고
             </PanelHeader>
@@ -37,7 +40,7 @@ const AboutAs: React.FC = () => {
           <Panel>
             <PanelHeader>
               <span role="img" aria-label="Gear">
-                ⚙
+                <img src=url(${iconGear}) alt="" width="64" height="64">
               </span>{' '}
               현실로 만듭니다
             </PanelHeader>
