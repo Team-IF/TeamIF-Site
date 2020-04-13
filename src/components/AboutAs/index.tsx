@@ -20,7 +20,7 @@ const AboutAs: React.FC = () => {
           <Panel>
             <PanelHeader>
               <span role="img" aria-label="Balloon">
-                <img src=url(${iconBalloon}) alt="" width="64" height="64">
+                🎈
               </span>{' '}
               우리는 꿈을 꾸며
             </PanelHeader>
@@ -29,8 +29,8 @@ const AboutAs: React.FC = () => {
 
           <Panel>
             <PanelHeader>
-              <span role="img" aria-label="PictureFrame">
-                <img src=url(${iconPictureFrame}) alt="" width="64" height="64">
+              <span role="img" aria-label="Drawing">
+                🖼
               </span>{' '}
               상상을 이루고
             </PanelHeader>
@@ -40,7 +40,7 @@ const AboutAs: React.FC = () => {
           <Panel>
             <PanelHeader>
               <span role="img" aria-label="Gear">
-                <img src=url(${iconGear}) alt="" width="64" height="64">
+                ⚙
               </span>{' '}
               현실로 만듭니다
             </PanelHeader>
