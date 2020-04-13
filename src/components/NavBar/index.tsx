@@ -4,6 +4,7 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import styled from 'styled-components';
 import NavBarHeader from '../../atomics/NavBar/NavBarHeader';
 import NavBarItem from '../../atomics/NavBar/NavBarItem';
+import logo from '../../assets/images/logo.png';
 
 const MenuStyle = styled.div<{ isOpen?: boolean }>`
   @media screen and (max-width: 1024px) {
@@ -11,12 +12,20 @@ const MenuStyle = styled.div<{ isOpen?: boolean }>`
   }
 `;
 
+const LogoStyle = styled.img`
+  height: 80px;
+`;
+
 const NavBar: React.FC = () => {
   const [isOpen, setOpen] = useState<boolean>(false);
 
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-blue-700 p-6">
-      <NavBarHeader>Team IF</NavBarHeader>
+    <nav className="flex items-center justify-between flex-wrap bg-blue-700">
+      <NavBarHeader>
+        <a href="/">
+          <LogoStyle src={logo} />
+        </a>
+      </NavBarHeader>
 
       <div className="block lg:hidden">
         <button
