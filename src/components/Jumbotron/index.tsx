@@ -23,7 +23,7 @@ const Jumbotron: React.FC = () => {
   return (
     <JumbotronContainer className="flex justify-center items-center bg-fixed">
       <div>
-        <p className="text-5xl text-center text-white">
+        <p className="lg:text-5xl text-3xl text-center text-white">
           We Make <span className="font-bold">IF</span> to{' '}
           <span className="font-bold">Reality</span>, <span className="font-bold">Dream</span> to{' '}
           <span className="font-bold">Action</span>
