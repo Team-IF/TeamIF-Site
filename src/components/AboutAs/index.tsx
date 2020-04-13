@@ -1,5 +1,8 @@
 import React from 'react';
 import Section from '../../atomics/Section';
+import Panel from './Panel';
+import PanelHeader from '../../atomics/AboutAs/PanelHeader';
+import PanelBody from '../../atomics/AboutAs/PanelBody';
 
 const AboutAs: React.FC = () => {
   return (
@@ -10,33 +13,36 @@ const AboutAs: React.FC = () => {
         </p>
         <p className="text-xl text-center">Team IF를 소개합니다!</p>
 
-        <div className="flex flex-row justify-center items-center mt-16">
-          <div className="text-center mx-8">
-            <p className="text-3xl font-bold">
-              가나다라
-            </p>
-            <p>
-              가나다라마바
-            </p>
-          </div>
+        <div className="flex lg:flex-row flex-col justify-center items-center mt-16">
+          <Panel>
+            <PanelHeader>
+              <span role="img" aria-label="Balloon">
+                🎈
+              </span>{' '}
+              우리는 꿈을 꾸며
+            </PanelHeader>
+            <PanelBody>가나다라마바</PanelBody>
+          </Panel>
 
-          <div className="text-center mx-8">
-            <p className="text-3xl font-bold">
-              가나다라
-            </p>
-            <p>
-              가나다라마바
-            </p>
-          </div>
+          <Panel>
+            <PanelHeader>
+              <span role="img" aria-label="Drawing">
+                🖼
+              </span>{' '}
+              상상을 이루고
+            </PanelHeader>
+            <PanelBody>가나다라마바</PanelBody>
+          </Panel>
 
-          <div className="text-center mx-8">
-            <p className="text-3xl font-bold">
-              가나다라
-            </p>
-            <p>
-              가나다라마바
-            </p>
-          </div>
+          <Panel>
+            <PanelHeader>
+              <span role="img" aria-label="Gear">
+                ⚙
+              </span>{' '}
+              현실로 만듭니다
+            </PanelHeader>
+            <PanelBody>가나다라마바</PanelBody>
+          </Panel>
         </div>
       </div>
     </Section>
