@@ -16,6 +16,7 @@ const IconStyle = styled.img`
 
 const TextStyle = styled.p`
   float:right;
+  font-size: 15px;
 `;
 
 const AboutAs: React.FC = () => {
@@ -33,9 +34,7 @@ const AboutAs: React.FC = () => {
               <span role="img" aria-label="Balloon">
                 <IconStyle src={iconBalloon} />
               </span>{' '}
-              <h6>
-                <TextStyle>우리는 꿈을 꾸며</TextStyle>
-              </h6>
+              <TextStyle>우리는 꿈을 꾸며</TextStyle>
             </PanelHeader>
             <PanelBody>가나다라마바사</PanelBody>
           </Panel>
@@ -45,9 +44,7 @@ const AboutAs: React.FC = () => {
               <span role="img" aria-label="PictureFrame">
                 <IconStyle src={iconPictureFrame} />
               </span>{' '}
-              <h6>
-                <TextStyle>상상을 이루고</TextStyle>
-              </h6>
+              <TextStyle>상상을 이루고</TextStyle>
             </PanelHeader>
             <PanelBody>가나다라마바사</PanelBody>
           </Panel>
@@ -57,9 +54,7 @@ const AboutAs: React.FC = () => {
               <span role="img" aria-label="Gear">
                 <IconStyle src={iconGear} />
               </span>{' '}
-              <h6>
-                <TextStyle>현실로 만듭니다</TextStyle>
-              </h6>
+              <TextStyle>현실로 만듭니다</TextStyle>
             </PanelHeader>
             <PanelBody>가나다라마바사</PanelBody>
           </Panel>
