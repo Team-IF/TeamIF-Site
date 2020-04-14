@@ -33,17 +33,21 @@ const AboutAs: React.FC = () => {
               <span role="img" aria-label="Balloon">
                 <IconStyle src={iconBalloon} />
               </span>{' '}
-              <TextStyle>우리는 꿈을 꾸며</TextStyle>
+              <span role="text" aria-label="BalloonText">
+                <TextStyle>우리는 꿈을 꾸며</TextStyle>
+              </span>
             </PanelHeader>
             <PanelBody>가나다라마바사</PanelBody>
           </Panel>
 
           <Panel>
             <PanelHeader>
-              <span role="img" aria-label="Drawing">
+              <span role="img" aria-label="PictureFrame">
                 <IconStyle src={iconPictureFrame} />
               </span>{' '}
-              <TextStyle>상상을 이루고</TextStyle>
+              <span role="text" aria-label="PictureFrameText">
+                <TextStyle>상상을 이루고</TextStyle>
+              </span>
             </PanelHeader>
             <PanelBody>가나다라마바사</PanelBody>
           </Panel>
@@ -53,7 +57,9 @@ const AboutAs: React.FC = () => {
               <span role="img" aria-label="Gear">
                 <IconStyle src={iconGear} />
               </span>{' '}
-              <TextStyle>현실로 만듭니다</TextStyle>
+              <span role="text" aria-label="GearText">
+                <TextStyle>현실로 만듭니다</TextStyle>
+              </span>
             </PanelHeader>
             <PanelBody>가나다라마바사</PanelBody>
           </Panel>
