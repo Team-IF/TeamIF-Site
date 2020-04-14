@@ -42,10 +42,10 @@ const NavBar: React.FC = () => {
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <MenuStyle className="bg-blue-700" isOpen={isOpen}>
           <a href="#aboutUs">
-            <NavBarItem>소개</NavBarItem>
+            <NavBarItem>About Us</NavBarItem>
           </a>
-          <NavBarItem>팀원</NavBarItem>
-          <NavBarItem last>지원</NavBarItem>
+          <NavBarItem>Members</NavBarItem>
+          <NavBarItem last>Support</NavBarItem>
         </MenuStyle>
       </div>
     </nav>
