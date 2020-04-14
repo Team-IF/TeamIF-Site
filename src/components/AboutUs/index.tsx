@@ -11,9 +11,8 @@ import iconGear from '../../assets/images/icon/Gear.png';
 const IconStyle = styled.img`
   height: 40px;
   width: 40px;
-  float: left;
-
   margin-top: 4px;
+  float: left;
 `;
 
 const AboutUs: React.FC = () => {
@@ -29,7 +28,7 @@ const AboutUs: React.FC = () => {
           <Panel>
             <PanelHeader>
               <IconStyle src={iconBalloon} alt="Balloon" />
-              우리는 꿈을 꾸며
+              &nbsp;우리는 꿈을 꾸며
             </PanelHeader>
             <PanelBody>가나다라마바사</PanelBody>
           </Panel>
