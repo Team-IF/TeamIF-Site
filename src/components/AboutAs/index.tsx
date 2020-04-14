@@ -9,14 +9,14 @@ import iconPictureFrame from '../../assets/images/icon/PictureFrame.png'
 import iconGear from '../../assets/images/icon/Gear.png'
 
 const IconStyle = styled.img`
-  height: 40px;
-  width: 40px;
+  height: 36px;
+  width: 36px;
   float: left;
 `;
 
 const TextStyle = styled.p`
-  float:right;
-  font-size: 15px;
+  font-size: 30px;
+  float: right;
 `;
 
 const AboutAs: React.FC = () => {
