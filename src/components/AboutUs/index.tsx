@@ -28,7 +28,7 @@ const AboutUs: React.FC = () => {
           <Panel>
             <PanelHeader>
               <IconStyle src={iconBalloon} alt="Balloon" />
-              &nbsp;우리는 꿈을 꾸며
+              우리는 꿈을 꾸며
             </PanelHeader>
             <PanelBody>가나다라마바사</PanelBody>
           </Panel>
