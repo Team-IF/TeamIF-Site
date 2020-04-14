@@ -9,6 +9,8 @@ import logo from '../../assets/images/logo.png';
 const MenuStyle = styled.div<{ isOpen?: boolean }>`
   @media screen and (max-width: 1024px) {
     display: ${(props) => (props.isOpen ? 'block' : 'none')};
+    position: absolute;
+    width: 100vw;
   }
 `;
 
@@ -38,7 +40,7 @@ const NavBar: React.FC = () => {
       </div>
 
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-        <MenuStyle isOpen={isOpen}>
+        <MenuStyle className="bg-blue-700" isOpen={isOpen}>
           <a href="#aboutUs">
             <NavBarItem>소개</NavBarItem>
           </a>
