@@ -9,9 +9,10 @@ import iconPictureFrame from '../../assets/images/icon/PictureFrame.png'
 import iconGear from '../../assets/images/icon/Gear.png'
 
 const IconStyle = styled.img`
-  height: 32px;
-  width: 32px;
+  height: 40px;
+  width: 40px;
   float: left;
+  vertical-align: middle
 `;
 
 const TextStyle = styled.p`
