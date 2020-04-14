@@ -39,7 +39,7 @@ const NavBar: React.FC = () => {
 
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <MenuStyle isOpen={isOpen}>
-          <a href="#aboutas">
+          <a href="#aboutUs">
             <NavBarItem>소개</NavBarItem>
           </a>
           <NavBarItem>팀원</NavBarItem>
