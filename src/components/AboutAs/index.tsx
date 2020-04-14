@@ -3,6 +3,15 @@ import Section from '../../atomics/Section';
 import Panel from './Panel';
 import PanelHeader from '../../atomics/AboutAs/PanelHeader';
 import PanelBody from '../../atomics/AboutAs/PanelBody';
+import styled from 'styled-components';
+import iconBalloon from '../../assets/images/icon/Balloon.png'
+import iconPictureFrame from '../../assets/images/icon/PictureFrame.png'
+import iconGear from '../../assets/images/icon/Gear.png'
+
+const IconStyle = styled.img`
+  height: 64px;
+  width: 64px;
+`;
 
 const AboutAs: React.FC = () => {
   return (
@@ -17,7 +26,7 @@ const AboutAs: React.FC = () => {
           <Panel>
             <PanelHeader>
               <span role="img" aria-label="Balloon">
-                🎈
+                <IconStyle src={iconBalloon} />
               </span>{' '}
               우리는 꿈을 꾸며
             </PanelHeader>
@@ -27,7 +36,7 @@ const AboutAs: React.FC = () => {
           <Panel>
             <PanelHeader>
               <span role="img" aria-label="Drawing">
-                🖼
+                <IconStyle src={iconPictureFrame} />
               </span>{' '}
               상상을 이루고
             </PanelHeader>
@@ -37,7 +46,7 @@ const AboutAs: React.FC = () => {
           <Panel>
             <PanelHeader>
               <span role="img" aria-label="Gear">
-                ⚙
+                <IconStyle src={iconGear} />
               </span>{' '}
               현실로 만듭니다
             </PanelHeader>
