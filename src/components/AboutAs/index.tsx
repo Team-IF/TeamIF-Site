@@ -11,6 +11,7 @@ import iconGear from '../../assets/images/icon/Gear.png'
 const IconStyle = styled.img`
   height: 36px;
   width: 36px;
+  vertical-align: middle
   float: left;
 `;
 
@@ -31,30 +32,27 @@ const AboutAs: React.FC = () => {
         <div className="flex lg:flex-row flex-col justify-center items-center mt-16">
           <Panel>
             <PanelHeader>
-              <span role="img" aria-label="Balloon">
-                <IconStyle src={iconBalloon} />
-              </span>{' '}
-              <TextStyle>우리는 꿈을 꾸며</TextStyle>
+              <TextStyle>
+                  <IconStyle src={iconBalloon} /> 우리는 꿈을 꾸며
+              </TextStyle>
             </PanelHeader>
             <PanelBody>가나다라마바사</PanelBody>
           </Panel>
 
           <Panel>
             <PanelHeader>
-              <span role="img" aria-label="PictureFrame">
-                <IconStyle src={iconPictureFrame} />
-              </span>{' '}
-              <TextStyle>상상을 이루고</TextStyle>
+              <TextStyle>
+                <IconStyle src={iconPictureFrame} /> 상상을 이루고
+              </TextStyle>
             </PanelHeader>
             <PanelBody>가나다라마바사</PanelBody>
           </Panel>
 
           <Panel>
             <PanelHeader>
-              <span role="img" aria-label="Gear">
-                <IconStyle src={iconGear} />
-              </span>{' '}
-              <TextStyle>현실로 만듭니다</TextStyle>
+              <TextStyle>
+                <IconStyle src={iconGear} /> 현실로 만듭니다
+              </TextStyle>
             </PanelHeader>
             <PanelBody>가나다라마바사</PanelBody>
           </Panel>
