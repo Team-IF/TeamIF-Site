@@ -38,13 +38,13 @@ const AboutUs: React.FC = () => {
               <IconStyle src={iconPictureFrame} alt="PictureFrame" />
               &nbsp;상상을 이루고
             </PanelHeader>
-            <PanelBody>In one's imagination</PanelBody>
+            <PanelBody>From imagination,</PanelBody>
           </Panel>
 
           <Panel>
             <PanelHeader>
               <IconStyle src={iconGear} alt="Gear" />
-              &nbsp;현실로 만듭니다.
+              &nbsp;Into reality.
             </PanelHeader>
             <PanelBody>Make it real.</PanelBody>
           </Panel>
