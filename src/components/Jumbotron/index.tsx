@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import background from '../../assets/images/background.jpg';
+import background from '../../assets/images/background/backgroundFlow.jpg';
 
 const JumbotronContainer = styled.section`
   height: calc(100vh - 4.9em);
