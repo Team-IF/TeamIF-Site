@@ -31,6 +31,7 @@ const IconStyle = styled.img`
 const AboutUs: React.FC = () => {
   return (
     <Section id="aboutUs" className="flex justify-center items-center bg-fixed">
+      <CircuitBackgroundStyle />
       <div>
         <p className="font-bold lg:text-5xl text-3xl text-center">
           We Are <span className="text-blue-700">Team IF</span>
@@ -63,7 +64,6 @@ const AboutUs: React.FC = () => {
           </Panel>
         </div>
       </div>
-      <CircuitBackgroundStyle />
     </Section>
   );
 };
