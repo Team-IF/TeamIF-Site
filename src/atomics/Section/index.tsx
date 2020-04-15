@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const SectionStyle = styled.section`
-  margin: 8em auto;
+  height: 100vh;
 `;
 
 const Section: React.FC<React.HTMLAttributes<any>> = ({ children, ...props }) => {

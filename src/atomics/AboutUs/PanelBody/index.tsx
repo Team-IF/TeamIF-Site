@@ -1,7 +1,7 @@
 import React from 'react';
 
 const PanelBody: React.FC = ({ children }) => {
-  return <p>{children}</p>;
+  return <p className="text-xl">{children}</p>;
 };
 
 export default PanelBody;
