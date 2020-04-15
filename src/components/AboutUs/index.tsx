@@ -30,7 +30,7 @@ const AboutUs: React.FC = () => {
               <IconStyle src={iconBalloon} alt="Balloon" />
               우리는 꿈을 꾸며
             </PanelHeader>
-            <PanelBody>가나다라마바사</PanelBody>
+            <PanelBody>We make dreams</PanelBody>
           </Panel>
 
           <Panel>
@@ -38,15 +38,15 @@ const AboutUs: React.FC = () => {
               <IconStyle src={iconPictureFrame} alt="PictureFrame" />
               &nbsp;상상을 이루고
             </PanelHeader>
-            <PanelBody>가나다라마바사</PanelBody>
+            <PanelBody>In one's imagination</PanelBody>
           </Panel>
 
           <Panel>
             <PanelHeader>
               <IconStyle src={iconGear} alt="Gear" />
-              &nbsp;현실로 만듭니다
+              &nbsp;현실로 만듭니다.
             </PanelHeader>
-            <PanelBody>가나다라마바사</PanelBody>
+            <PanelBody>Make it real.</PanelBody>
           </Panel>
         </div>
       </div>
