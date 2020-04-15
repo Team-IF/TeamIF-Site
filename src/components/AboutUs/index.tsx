@@ -11,7 +11,7 @@ import iconGear from '../../assets/images/icon/Gear.png';
 
 const CircuitBackgroundStyle = styled.div`
   position: absolute;
-  top: 0;
+  top: 100%;
   left: 0;
   min-height: 100%;
   min-width: 100%;
@@ -31,14 +31,13 @@ const IconStyle = styled.img`
 const AboutUs: React.FC = () => {
   return (
     <Section id="aboutUs" className="flex justify-center items-center bg-fixed">
-      <CircuitBackgroundStyle />
       <div>
-        <p className="font-bold lg:text-5xl text-3xl text-center">
+        <p className="text-white font-bold lg:text-5xl text-3xl text-center">
           We Are <span className="text-blue-700">Team IF</span>
         </p>
-        <p className="font-bold text-3xl text-center">팀 소개</p>
+        <p className="text-white font-bold text-3xl text-center">팀 소개</p>
 
-        <div className="flex lg:flex-row flex-col justify-center items-center mt-16">
+        <div className="text-white flex lg:flex-row flex-col justify-center items-center mt-16">
           <Panel>
             <PanelHeader>
               <IconStyle src={iconBalloon} alt="Balloon" />
@@ -64,6 +63,7 @@ const AboutUs: React.FC = () => {
           </Panel>
         </div>
       </div>
+      <CircuitBackgroundStyle />
     </Section>
   );
 };
