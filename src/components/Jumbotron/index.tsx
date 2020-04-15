@@ -32,7 +32,7 @@ const Jumbotron: React.FC = () => {
           청소년 개발 팀 Team IF 입니다.
         </p>
       </div>
-      <BackgroundStyle />
+      <FlowBackgroundStyle />
     </JumbotronContainer>
   );
 };
