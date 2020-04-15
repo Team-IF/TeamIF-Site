@@ -1,20 +1,20 @@
 import React from 'react';
 import styled from 'styled-components';
-import background from '../../assets/images/background/backgroundFlow.jpg';
+import backgroundFlow from '../../assets/images/background/backgroundFlow.jpg';
 
 const JumbotronContainer = styled.section`
   height: calc(100vh - 4.9em);
   width: 100vw;
 `;
 
-const BackgroundStyle = styled.div`
+const FlowBackgroundStyle = styled.div`
   position: absolute;
   top: 0;
   left: 0;
   min-height: 100%;
   min-width: 100%;
   z-index: -1;
-  background-image: url(${background});
+  background-image: url(${backgroundFlow});
   background-repeat: no-repeat;
   background-size: cover;
 `;

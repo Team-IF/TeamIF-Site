@@ -4,19 +4,19 @@ import Section from '../../atomics/Section';
 import Panel from './Panel';
 import PanelHeader from '../../atomics/AboutUs/PanelHeader';
 import PanelBody from '../../atomics/AboutUs/PanelBody';
-import background from '../../assets/images/background/backgroundCircuit.jpg';
+import backgroundCircuit from '../../assets/images/background/backgroundCircuit.jpg';
 import iconBalloon from '../../assets/images/icon/Balloon.png';
 import iconPictureFrame from '../../assets/images/icon/PictureFrame.png';
 import iconGear from '../../assets/images/icon/Gear.png';
 
-const BackgroundStyle = styled.div`
+const CircuitBackgroundStyle = styled.div`
   position: absolute;
   top: 0;
   left: 0;
   min-height: 100%;
   min-width: 100%;
   z-index: -1;
-  background-image: url(${background});
+  background-image: url(${backgroundCircuit});
   background-repeat: no-repeat;
   background-size: cover;
 `;
@@ -63,7 +63,7 @@ const AboutUs: React.FC = () => {
           </Panel>
         </div>
       </div>
-      <BackgroundStyle />
+      <CircuitBackgroundStyle />
     </Section>
   );
 };
