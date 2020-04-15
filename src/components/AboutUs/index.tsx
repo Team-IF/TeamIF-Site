@@ -44,9 +44,9 @@ const AboutUs: React.FC = () => {
           <Panel>
             <PanelHeader>
               <IconStyle src={iconGear} alt="Gear" />
-              &nbsp;Into reality.
+              &nbsp;현실로 만듭니다.
             </PanelHeader>
-            <PanelBody>Make it real.</PanelBody>
+            <PanelBody>Into reality.</PanelBody>
           </Panel>
         </div>
       </div>
