@@ -13,8 +13,8 @@ const CircuitBackgroundStyle = styled.div`
   position: absolute;
   top: 100%;
   left: 0;
-  min-height: 100%;
-  min-width: 100%;
+  min-height: 100vh;
+  min-width: 100wh;
   z-index: -1;
   background-image: url(${backgroundCircuit});
   background-repeat: no-repeat;
