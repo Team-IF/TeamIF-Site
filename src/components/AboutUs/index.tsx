@@ -37,7 +37,7 @@ const AboutUs: React.FC = () => {
         </p>
         <p className="text-white font-bold text-3xl text-center">팀 소개</p>
 
-        <div className="text-white flex lg:flex-row flex-col justify-center items-center mt-16">
+        <div className="text-white flex lg:flex-row flex-col justify-center items-center lg:mt-16 mt-12">
           <Panel>
             <PanelHeader>
               <IconStyle src={iconBalloon} alt="Balloon" />
