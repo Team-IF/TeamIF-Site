@@ -14,7 +14,7 @@ const CircuitBackgroundStyle = styled.div`
   top: 100%;
   left: 0;
   min-height: 100vh;
-  min-width: 100wh;
+  min-width: 100vw;
   z-index: -1;
   background-image: url(${backgroundCircuit});
   background-repeat: no-repeat;
