@@ -19,7 +19,7 @@ const IconStyle = styled.img`
   width: auto;
   margin-top: 4px;
   float: left;
-  
+
   @media screen and (max-height: 800px) {
     height: 30px;
   }
@@ -34,16 +34,17 @@ const AnimationWrapper = styled.div<{ animation: Keyframes }>`
 
 const AboutUs: React.FC = () => {
   return (
-    <Section id="aboutUs" className="relative flex justify-center items-center bg-fixed overflow-hidden">
+    <Section
+      id="aboutUs"
+      className="relative flex justify-center items-center bg-fixed overflow-hidden"
+    >
       <div className="overflow-hidden lg:mb-10">
-        <div>
-          <p className="font-bold lg:text-5xl text-3xl text-center">
-            We Are <span className="text-blue-700">Team IF</span>
-          </p>
-          <p className="font-bold text-base sm:text-lg md:text-xl lg:text-3xl text-center">팀 소개</p>
-        </div>
+        <p className="font-bold lg:text-5xl text-3xl text-center">
+          We Are <span className="text-blue-700">Team IF</span>
+        </p>
+        <p className="font-bold sm:text-lg md:text-xl lg:text-3xl text-center">팀 소개</p>
 
-        <div className="flex lg:flex-row flex-col justify-center items-center lg:mt-16 overflow-hidden">
+        <div className="flex lg:flex-row flex-col lg:mt-16 overflow-hidden">
           <AnimationWrapper animation={BalloonAnimationA}>
             <Panel>
               <PanelHeader>

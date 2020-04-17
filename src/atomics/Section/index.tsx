@@ -5,6 +5,7 @@ const SectionStyle = styled.section`
   height: 100vh;
   width: 100vw;
   padding-top: 4.9em;
+  z-index: -1;
 `;
 
 const Section: React.FC<React.HTMLAttributes<any>> = ({ children, ...props }) => {

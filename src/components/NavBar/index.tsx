@@ -21,7 +21,7 @@ const NavBar: React.FC = () => {
   const [isOpen, setOpen] = useState<boolean>(false);
 
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-blue-700 fixed top-0 w-full z-10">
+    <nav className="flex items-center justify-between flex-wrap bg-blue-700 fixed top-0 w-full">
       <NavBarHeader>
         <a href="#home">
           <LogoStyle src={logo} />
@@ -43,7 +43,9 @@ const NavBar: React.FC = () => {
           <a href="#aboutUs">
             <NavBarItem>About Us</NavBarItem>
           </a>
-          <NavBarItem>Members</NavBarItem>
+          <a href="#members">
+            <NavBarItem>Members</NavBarItem>
+          </a>
           <NavBarItem last>Support</NavBarItem>
         </MenuStyle>
       </div>
