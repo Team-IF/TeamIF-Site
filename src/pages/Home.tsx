@@ -12,7 +12,7 @@ const ScrollContainer = styled.div`
 `;
 
 const ScrollWrapper = styled.div`
-  scroll-snap-align: start;
+  scroll-snap-align: center;
 `;
 
 const Home: React.FC = () => {
