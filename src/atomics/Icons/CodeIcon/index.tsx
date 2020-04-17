@@ -11,7 +11,12 @@ const IconStyle = styled.div`
   opacity: 20%;
   color: #63b3ed;
   transform: scale(3) rotate(10deg);
-  z-index: 2;
+  z-index: -1;
+
+  @-moz-document url-prefix() {
+    margin-top: 40vh;
+    margin-left: 70vw;
+  }
 `;
 
 const CodeIcon: React.FC = () => {
