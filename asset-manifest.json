@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/static/js/main.47457298.chunk.js",
+    "main.js": "/static/js/main.9de0d5ed.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.c8cf082f.js",
     "static/css/2.990701cb.chunk.css": "/static/css/2.990701cb.chunk.css",
-    "static/js/2.cbef92dd.chunk.js": "/static/js/2.cbef92dd.chunk.js",
+    "static/js/2.002ff25c.chunk.js": "/static/js/2.002ff25c.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.ffd270c021f3159da2ac9256055006b2.js": "/precache-manifest.ffd270c021f3159da2ac9256055006b2.js",
+    "precache-manifest.95a9ea53b9b3d0f8189b2acad9893412.js": "/precache-manifest.95a9ea53b9b3d0f8189b2acad9893412.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.cbef92dd.chunk.js.LICENSE.txt": "/static/js/2.cbef92dd.chunk.js.LICENSE.txt",
+    "static/js/2.002ff25c.chunk.js.LICENSE.txt": "/static/js/2.002ff25c.chunk.js.LICENSE.txt",
     "static/media/Balloon.png": "/static/media/Balloon.6d5e71f9.png",
     "static/media/Gear.png": "/static/media/Gear.defb2531.png",
     "static/media/PictureFrame.png": "/static/media/PictureFrame.e5783935.png",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.c8cf082f.js",
     "static/css/2.990701cb.chunk.css",
-    "static/js/2.cbef92dd.chunk.js",
-    "static/js/main.47457298.chunk.js"
+    "static/js/2.002ff25c.chunk.js",
+    "static/js/main.9de0d5ed.chunk.js"
   ]
 }
