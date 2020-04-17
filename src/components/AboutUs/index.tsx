@@ -35,7 +35,7 @@ const AnimationWrapper = styled.div<{ animation: Keyframes }>`
 const AboutUs: React.FC = () => {
   return (
     <Section id="aboutUs" className="relative flex justify-center items-center bg-fixed overflow-hidden">
-      <div className="overflow-hidden mb-10">
+      <div className="overflow-hidden lg:mb-10">
         <div>
           <p className="font-bold lg:text-5xl text-3xl text-center">
             We Are <span className="text-blue-700">Team IF</span>
