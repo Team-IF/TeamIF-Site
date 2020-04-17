@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import Section from '../../atomics/Section';
 import Panel from './Panel';
 import PanelHeader from '../../atomics/AboutUs/PanelHeader';
 import PanelBody from '../../atomics/AboutUs/PanelBody';
@@ -8,18 +7,7 @@ import backgroundCircuit from '../../assets/images/background/backgroundCircuit.
 import iconBalloon from '../../assets/images/icon/Balloon.png';
 import iconPictureFrame from '../../assets/images/icon/PictureFrame.png';
 import iconGear from '../../assets/images/icon/Gear.png';
-
-const CircuitBackgroundStyle = styled.div`
-  position: absolute;
-  top: 100%;
-  left: 0;
-  min-height: 100vh;
-  min-width: 100vw;
-  z-index: -1;
-  background-image: url(${backgroundCircuit});
-  background-repeat: no-repeat;
-  background-size: cover;
-`;
+import BackgroundSection from '../../atomics/BackgroundSection';
 
 const IconStyle = styled.img`
   height: 40px;
@@ -30,7 +18,11 @@ const IconStyle = styled.img`
 
 const AboutUs: React.FC = () => {
   return (
-    <Section id="aboutUs" className="flex justify-center items-center bg-fixed">
+    <BackgroundSection
+      id="aboutUs"
+      className="flex justify-center items-center bg-fixed"
+      background={backgroundCircuit}
+    >
       <div>
         <p className="text-white font-bold lg:text-5xl text-3xl text-center">
           We Are <span className="text-blue-700">Team IF</span>
@@ -63,8 +55,7 @@ const AboutUs: React.FC = () => {
           </Panel>
         </div>
       </div>
-      <CircuitBackgroundStyle />
-    </Section>
+    </BackgroundSection>
   );
 };
 

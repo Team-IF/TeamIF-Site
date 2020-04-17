@@ -1,23 +1,13 @@
 import React from 'react';
-import styled from 'styled-components';
-import backgroundFlow from '../../assets/images/background/backgroundFlow.jpg';
-import Section from '../../atomics/Section';
-
-const FlowBackgroundStyle = styled.div`
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-height: 100%;
-  min-width: 100%;
-  z-index: -1;
-  background-image: url(${backgroundFlow});
-  background-repeat: no-repeat;
-  background-size: cover;
-`;
+import background from '../../assets/images/background/backgroundFlow.jpg';
+import BackgroundSection from '../../atomics/BackgroundSection';
 
 const Jumbotron: React.FC = () => {
   return (
-    <Section className="flex justify-center items-center bg-fixed">
+    <BackgroundSection
+      className="flex justify-center items-center bg-fixed"
+      background={background}
+    >
       <div>
         <p className="lg:text-5xl text-3xl text-center text-white">
           We Make <span className="font-bold">IF</span> to{' '}
@@ -26,8 +16,7 @@ const Jumbotron: React.FC = () => {
         </p>
         <p className="text-xl text-center text-white">청소년 개발 팀 Team IF 입니다.</p>
       </div>
-      <FlowBackgroundStyle />
-    </Section>
+    </BackgroundSection>
   );
 };
 
