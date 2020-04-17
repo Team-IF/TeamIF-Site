@@ -1,23 +1,37 @@
 import React from 'react';
-import styled from 'styled-components';
-import DefaultLayout from '../layouts/DefaultLayout';
+// @ts-ignore
+import ReactFullpage from '@fullpage/react-fullpage';
+// import DefaultLayout from '../layouts/DefaultLayout';
 import Jumbotron from '../components/Jumbotron';
 import AboutUs from '../components/AboutUs';
 import Members from '../components/Members';
-
-const ScrollContainer = styled.div`
-  max-height: 100vh;
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
-`;
-
-const ScrollWrapper = styled.div`
-  scroll-snap-align: center;
-`;
+import NavBar from '../components/NavBar';
 
 const Home: React.FC = () => {
   return (
-    <DefaultLayout>
+    <>
+      <NavBar/>
+      <ReactFullpage
+        licensekey="OPEN-SOURCE-GPLV3-LICENSE"
+        scrollingSpeed={1000}
+        render={() => {
+          return (
+            <ReactFullpage.Wrapper>
+              <div className="section">
+                <Jumbotron/>
+              </div>
+              <div className="section">
+                <AboutUs/>
+              </div>
+              <div className="section">
+                <Members/>
+              </div>
+            </ReactFullpage.Wrapper>
+          );
+        }}
+      />
+    </>
+    /* <DefaultLayout>
       <ScrollContainer>
         <ScrollWrapper>
           <Jumbotron />
@@ -29,7 +43,7 @@ const Home: React.FC = () => {
           <Members />
         </ScrollWrapper>
       </ScrollContainer>
-    </DefaultLayout>
+    </DefaultLayout> */
   );
 };
 

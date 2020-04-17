@@ -4,9 +4,9 @@
 
 - `yarn install`
     - 의존성 설치
-- `yarn run build`
+- `yarn build`
     - 사이트 빌드
-- `yarn run start`
+- `yarn start`
     - 개발 모드 시작
-- `yarn run lint`
+- `yarn lint`
     - eslint 검사
