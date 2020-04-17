@@ -22,7 +22,7 @@ const NavBar: React.FC = () => {
   const [isOpen, setOpen] = useState<boolean>(false);
 
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-blue-700">
+    <nav className="flex items-center justify-between flex-wrap bg-blue-700 fixed top-0 w-full">
       <NavBarHeader>
         <a href="/">
           <LogoStyle src={logo} />

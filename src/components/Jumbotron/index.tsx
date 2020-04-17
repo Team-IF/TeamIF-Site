@@ -1,11 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import backgroundFlow from '../../assets/images/background/backgroundFlow.jpg';
-
-const JumbotronContainer = styled.section`
-  height: calc(100vh - 4.9em);
-  width: 100vw;
-`;
+import Section from '../../atomics/Section';
 
 const FlowBackgroundStyle = styled.div`
   position: absolute;
@@ -21,19 +17,17 @@ const FlowBackgroundStyle = styled.div`
 
 const Jumbotron: React.FC = () => {
   return (
-    <JumbotronContainer className="flex justify-center items-center bg-fixed">
+    <Section className="flex justify-center items-center bg-fixed">
       <div>
         <p className="lg:text-5xl text-3xl text-center text-white">
           We Make <span className="font-bold">IF</span> to{' '}
           <span className="font-bold">Reality</span>, <span className="font-bold">Dream</span> to{' '}
           <span className="font-bold">Action</span>
         </p>
-        <p className="text-xl text-center text-white">
-          청소년 개발 팀 Team IF 입니다.
-        </p>
+        <p className="text-xl text-center text-white">청소년 개발 팀 Team IF 입니다.</p>
       </div>
       <FlowBackgroundStyle />
-    </JumbotronContainer>
+    </Section>
   );
 };
 
