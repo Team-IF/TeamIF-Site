@@ -9,7 +9,6 @@ import logo from '../../assets/images/logo.png';
 const MenuStyle = styled.div<{ isOpen?: boolean }>`
   @media screen and (max-width: 1024px) {
     display: ${(props) => (props.isOpen ? 'block' : 'none')};
-    position: absolute;
     width: 100vw;
   }
 `;
