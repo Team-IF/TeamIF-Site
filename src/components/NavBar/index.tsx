@@ -23,7 +23,7 @@ const NavBar: React.FC = () => {
   return (
     <nav className="flex items-center justify-between flex-wrap bg-blue-700 fixed top-0 w-full">
       <NavBarHeader>
-        <a href="/">
+        <a href="#home">
           <LogoStyle src={logo} />
         </a>
       </NavBarHeader>

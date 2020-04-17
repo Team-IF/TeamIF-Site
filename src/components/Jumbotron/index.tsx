@@ -5,6 +5,7 @@ import BackgroundSection from '../../atomics/BackgroundSection';
 const Jumbotron: React.FC = () => {
   return (
     <BackgroundSection
+      id="home"
       className="flex justify-center items-center bg-fixed"
       background={background}
     >
