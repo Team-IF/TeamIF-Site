@@ -1,5 +1,4 @@
 import React from 'react';
-// @ts-ignore
 import ReactFullpage from '@fullpage/react-fullpage';
 import Jumbotron from '../components/Jumbotron';
 import AboutUs from '../components/AboutUs';
@@ -10,21 +9,19 @@ const Home: React.FC = () => {
     <ReactFullpage
       licensekey="OPEN-SOURCE-GPLV3-LICENSE"
       scrollingSpeed={800}
-      render={() => {
-        return (
-          <ReactFullpage.Wrapper>
-            <div className="section">
-              <Jumbotron />
-            </div>
-            <div className="section">
-              <AboutUs />
-            </div>
-            <div className="section">
-              <Members />
-            </div>
-          </ReactFullpage.Wrapper>
-        );
-      }}
+      render={() => (
+        <ReactFullpage.Wrapper>
+          <div className="section">
+            <Jumbotron />
+          </div>
+          <div className="section">
+            <AboutUs />
+          </div>
+          <div className="section">
+            <Members />
+          </div>
+        </ReactFullpage.Wrapper>
+      )}
     />
   );
 };

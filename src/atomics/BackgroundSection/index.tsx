@@ -4,7 +4,6 @@ import styled from 'styled-components';
 const BackgroundSectionStyle = styled.section<{ background: string }>`
   height: 100vh;
   width: 100vw;
-  padding-top: 4.9em;
   background-image: url(${(props) => props.background});
   background-repeat: no-repeat;
   background-size: cover;
