@@ -6,16 +6,16 @@ import styled from 'styled-components';
 const IconStyle = styled.div`
   display: flex;
   position: absolute;
-  margin-top: 20vh;
-  margin-left: 35vw;
+  margin-top: 30vh;
+  margin-left: 40vw;
   opacity: 20%;
   color: #63b3ed;
   transform: scale(3) rotate(10deg);
   z-index: -10;
 
   @-moz-document url-prefix() {
-    margin-top: 40vh;
-    margin-left: 70vw;
+    margin-top: 60vh;
+    margin-left: 80vw;
   }
 `;
 
