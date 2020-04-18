@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.js": "/static/js/main.9de0d5ed.chunk.js",
+    "main.js": "/static/js/main.eb911b9b.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.c8cf082f.js",
     "static/css/2.990701cb.chunk.css": "/static/css/2.990701cb.chunk.css",
-    "static/js/2.002ff25c.chunk.js": "/static/js/2.002ff25c.chunk.js",
+    "static/js/2.837a0069.chunk.js": "/static/js/2.837a0069.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.95a9ea53b9b3d0f8189b2acad9893412.js": "/precache-manifest.95a9ea53b9b3d0f8189b2acad9893412.js",
+    "precache-manifest.2de4f4c03490cfca4239df5b8cba941a.js": "/precache-manifest.2de4f4c03490cfca4239df5b8cba941a.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.002ff25c.chunk.js.LICENSE.txt": "/static/js/2.002ff25c.chunk.js.LICENSE.txt",
+    "static/js/2.837a0069.chunk.js.LICENSE.txt": "/static/js/2.837a0069.chunk.js.LICENSE.txt",
     "static/media/Balloon.png": "/static/media/Balloon.6d5e71f9.png",
     "static/media/Gear.png": "/static/media/Gear.defb2531.png",
     "static/media/PictureFrame.png": "/static/media/PictureFrame.e5783935.png",
-    "static/media/backgroundFlow.jpg": "/static/media/backgroundFlow.9dfca741.jpg",
-    "static/media/logo.png": "/static/media/logo.c537f4b4.png"
+    "static/media/backgroundFlow.jpg": "/static/media/backgroundFlow.9dfca741.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.c8cf082f.js",
     "static/css/2.990701cb.chunk.css",
-    "static/js/2.002ff25c.chunk.js",
-    "static/js/main.9de0d5ed.chunk.js"
+    "static/js/2.837a0069.chunk.js",
+    "static/js/main.eb911b9b.chunk.js"
   ]
 }
