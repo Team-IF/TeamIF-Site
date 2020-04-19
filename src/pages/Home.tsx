@@ -3,26 +3,30 @@ import ReactFullpage from '@fullpage/react-fullpage';
 import Jumbotron from '../components/Jumbotron';
 import AboutUs from '../components/AboutUs';
 import Members from '../components/Members';
+import NavBar from '../components/NavBar';
 
 const Home: React.FC = () => {
   return (
-    <ReactFullpage
-      licensekey="OPEN-SOURCE-GPLV3-LICENSE"
-      scrollingSpeed={800}
-      render={() => (
-        <ReactFullpage.Wrapper>
-          <div className="section">
-            <Jumbotron />
-          </div>
-          <div className="section">
-            <AboutUs />
-          </div>
-          <div className="section">
-            <Members />
-          </div>
-        </ReactFullpage.Wrapper>
-      )}
-    />
+    <>
+      <NavBar />
+      <ReactFullpage
+        licensekey="OPEN-SOURCE-GPLV3-LICENSE"
+        scrollingSpeed={800}
+        render={() => (
+          <ReactFullpage.Wrapper>
+            <div className="section">
+              <Jumbotron />
+            </div>
+            <div className="section">
+              <AboutUs />
+            </div>
+            <div className="section">
+              <Members />
+            </div>
+          </ReactFullpage.Wrapper>
+        )}
+      />
+    </>
   );
 };
 
