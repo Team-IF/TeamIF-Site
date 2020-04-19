@@ -10,7 +10,7 @@ const HeaderStyle = styled.div`
   margin: auto 16px;
 
   @media screen and (max-width: 720px) {
-    margin-left: 2px;
+    margin-left: 0.5rem;
   }
 `;
 

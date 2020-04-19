@@ -15,8 +15,7 @@ const NavStyle = styled.nav`
   width: 100%;
   top: 0;
   z-index: 10;
-  background-color: black;
-  opacity: 60%;
+  background-color: rgba(0, 0, 0, 0.7);
 `;
 
 const LogoStyle = styled.img`
@@ -55,6 +54,10 @@ const MenuStyle = styled.div<{ isOpen?: boolean }>`
   }
 `;
 
+const ATagStyle = styled.a`
+  text-decoration: none;
+`;
+
 const NavBar: React.FC = () => {
   const [isOpen, setOpen] = useState<boolean>(false);
 
@@ -73,15 +76,15 @@ const NavBar: React.FC = () => {
       </MenuWrapper>
 
       <MenuStyle isOpen={isOpen}>
-        <a href="#aboutUs">
+        <ATagStyle href="#aboutUs">
           <NavBarItem>About Us</NavBarItem>
-        </a>
-        <a href="#members">
+        </ATagStyle>
+        <ATagStyle href="#members">
           <NavBarItem>Members</NavBarItem>
-        </a>
-        <a href="#support">
+        </ATagStyle>
+        <ATagStyle href="#support">
           <NavBarItem>Support</NavBarItem>
-        </a>
+        </ATagStyle>
       </MenuStyle>
     </NavStyle>
   );
