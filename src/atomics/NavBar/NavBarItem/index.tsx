@@ -8,7 +8,7 @@ const ItemStyle = styled.div`
   margin-right: 16px;
 
   &:hover {
-    color: #63b3ed;
+    color: #90cdf4;
   }
 
   @media screen and (max-width: 720px) {
