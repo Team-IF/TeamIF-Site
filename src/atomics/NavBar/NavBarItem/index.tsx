@@ -1,18 +1,24 @@
 import React from 'react';
+import styled from 'styled-components';
 
-interface NavBarItemProps {
-  readonly last?: boolean;
-}
+const ItemStyle = styled.div`
+  display: inline-block;
+  color: white;
+  cursor: pointer;
+  margin-right: 16px;
 
-const NavBarItem: React.FC<NavBarItemProps> = ({ last, children }) => {
-  const style = last ? '' : 'mr-6';
-  return (
-    <div
-      className={`block lg:inline-block mt-4 lg:mt-0 text-white hover:text-blue-300 cursor-pointer lg:${style} lg:m-0 m-3`}
-    >
-      {children}
-    </div>
-  );
+  &:hover {
+    color: #63b3ed;
+  }
+
+  @media screen and (max-width: 720px) {
+    display: block;
+    margin: 10px 16px;
+  }
+`;
+
+const NavBarItem: React.FC = ({ children }) => {
+  return <ItemStyle>{children}</ItemStyle>;
 };
 
 export default NavBarItem;

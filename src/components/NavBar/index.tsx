@@ -46,7 +46,7 @@ const NavBar: React.FC = () => {
           <a href="#members">
             <NavBarItem>Members</NavBarItem>
           </a>
-          <NavBarItem last>Support</NavBarItem>
+          <NavBarItem>Support</NavBarItem>
         </MenuStyle>
       </div>
     </nav>

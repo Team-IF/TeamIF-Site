@@ -1,7 +1,25 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const HeaderStyle = styled.div`
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  color: white;
+
+  margin: auto 16px;
+
+  @media screen and (max-width: 720px) {
+    margin-left: 2px;
+  }
+`;
 
 const NavBarHeader: React.FC = ({ children }) => {
-  return <div className="flex items-center flex-shrink-0 text-white mr-8 lg:ml-8 ml-2">{children}</div>;
+  return (
+    <HeaderStyle>
+      {children}
+    </HeaderStyle>
+  );
 };
 
 export default NavBarHeader;
