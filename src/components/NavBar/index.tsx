@@ -36,6 +36,8 @@ const BuggerButtonStyle = styled.button`
   align-items: center;
   margin-right: 1rem;
   color: white;
+  border: none;
+  background: none;
 
   &:hover {
     color: #90cdf4;
