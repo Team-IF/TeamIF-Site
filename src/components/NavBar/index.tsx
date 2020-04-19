@@ -77,7 +77,7 @@ const NavBar: React.FC = () => {
 
       <MenuStyle isOpen={isOpen}>
         <ATagStyle href="#aboutUs">
-          <NavBarItem>About Us</NavBarItem>
+          <NavBarItem>About</NavBarItem>
         </ATagStyle>
         <ATagStyle href="#members">
           <NavBarItem>Members</NavBarItem>
