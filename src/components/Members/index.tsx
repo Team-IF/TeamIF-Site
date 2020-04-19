@@ -1,13 +1,28 @@
 import React from 'react';
 import Section from '../../atomics/Section';
+import styled from 'styled-components';
+
+const SectionStyle = styled(Section)`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+const TitleStyle = styled.p`
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-align: center;
+
+  @media screen and (max-width: 720px) {
+    font-size: 1.5rem;
+  }
+`;
 
 const Members: React.FC = () => {
   return (
-    <Section id="members" className="flex justify-center items-center bg-fixed">
-      <p className="font-bold lg:text-3xl text-3xl text-center">
-        팀원 소개
-      </p>
-    </Section>
+    <SectionStyle id="members">
+      <TitleStyle>팀원 소개</TitleStyle>
+    </SectionStyle>
   );
 };
 

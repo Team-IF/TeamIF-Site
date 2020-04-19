@@ -1,23 +1,44 @@
 import React from 'react';
+import styled from 'styled-components';
 import background from '../../assets/images/background/backgroundFlow.jpg';
 import BackgroundSection from '../../atomics/BackgroundSection';
 
+const BackgroundSectionStyle = styled(BackgroundSection)`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
+const TitleStyle = styled.p`
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+
+  @media screen and (max-width: 720px) {
+    font-size: 1.5rem;
+  }
+
+  & span {
+    font-weight: bold;
+  }
+`;
+
+const SubTitleStyle = styled.p`
+  font-size: 1.2rem;
+  text-align: center;
+  color: white;
+`;
+
 const Jumbotron: React.FC = () => {
   return (
-    <BackgroundSection
-      id="home"
-      className="flex justify-center items-center bg-fixed"
-      background={background}
-    >
+    <BackgroundSectionStyle id="home" background={background}>
       <div>
-        <p className="lg:text-5xl text-3xl text-center text-white">
-          We Make <span className="font-bold">IF</span> to{' '}
-          <span className="font-bold">Reality</span>, <span className="font-bold">Dream</span> to{' '}
-          <span className="font-bold">Action</span>
-        </p>
-        <p className="text-xl text-center text-white">청소년 개발 팀 Team IF 입니다.</p>
+        <TitleStyle>
+          We Make <span>IF</span> to <span>Reality</span>, <span>Dream</span> to <span>Action</span>
+        </TitleStyle>
+        <SubTitleStyle>청소년 개발 팀 Team IF 입니다.</SubTitleStyle>
       </div>
-    </BackgroundSection>
+    </BackgroundSectionStyle>
   );
 };
 

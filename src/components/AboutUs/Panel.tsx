@@ -1,7 +1,17 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const PanelStyle = styled.div`
+  margin: auto 4rem;
+  text-align: center;
+
+  @media screen and (max-width: 720px) {
+    margin: 1.5rem auto;
+  }
+`;
 
 const Panel: React.FC = ({ children }) => {
-  return <div className="text-center lg:mx-16 my-6">{children}</div>;
+  return <PanelStyle>{children}</PanelStyle>;
 };
 
 export default Panel;

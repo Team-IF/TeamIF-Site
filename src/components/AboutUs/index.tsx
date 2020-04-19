@@ -17,34 +17,83 @@ import CodeIcon from '../../atomics/Icons/CodeIcon';
 const IconStyle = styled.img`
   height: 40px;
   width: auto;
-  margin-top: 4px;
   float: left;
 
-  @media screen and (max-height: 800px) {
+  @media screen and (max-width: 720px) {
     height: 30px;
+    margin-right: -30px;
+    margin-top: 4px;
   }
 `;
 
 const AnimationWrapper = styled.div<{ animation: Keyframes }>`
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 720px) {
     animation: ${(props) => props.animation} ease-in 4s;
     animation-iteration-count: infinite;
   }
 `;
 
+const SectionStyle = styled(Section)`
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+`;
+
+const BodyStyle = styled.div`
+  overflow: hidden;
+  @media screen and (min-width: 720px) {
+    margin-bottom: 2.5rem;
+  }
+`;
+
+const TitleStyle = styled.p`
+  font-weight: bold;
+  font-size: 2.8rem;
+  text-align: center;
+
+  @media screen and (max-width: 720px) {
+    font-size: 2rem;
+  }
+
+  & span {
+    color: #2b6cb0;
+  }
+`;
+
+const SubTitleStyle = styled.p`
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-align: center;
+
+  @media screen and (max-width: 720px) {
+    font-size: 1.5rem;
+  }
+`;
+
+const PanelListStyle = styled.div`
+  display: flex;
+  flex-direction: row;
+  margin-top: 4rem;
+  overflow: hidden;
+
+  @media screen and (max-width: 720px) {
+    flex-direction: column;
+    margin-top: 0;
+  }
+`;
+
 const AboutUs: React.FC = () => {
   return (
-    <Section
-      id="aboutUs"
-      className="relative flex justify-center items-center bg-fixed overflow-hidden"
-    >
-      <div className="overflow-hidden lg:mb-10">
-        <p className="font-bold lg:text-5xl text-3xl text-center">
-          We Are <span className="text-blue-700">Team IF</span>
-        </p>
-        <p className="font-bold sm:text-lg md:text-xl lg:text-3xl text-center">팀 소개</p>
+    <SectionStyle id="aboutUs">
+      <BodyStyle>
+        <TitleStyle>
+          We Are <span>Team IF</span>
+        </TitleStyle>
+        <SubTitleStyle>팀 소개</SubTitleStyle>
 
-        <div className="flex lg:flex-row flex-col lg:mt-16 overflow-hidden">
+        <PanelListStyle>
           <AnimationWrapper animation={BalloonAnimationA}>
             <Panel>
               <PanelHeader>
@@ -74,10 +123,10 @@ const AboutUs: React.FC = () => {
               <PanelBody>Into reality.</PanelBody>
             </Panel>
           </AnimationWrapper>
-        </div>
-      </div>
+        </PanelListStyle>
+      </BodyStyle>
       <CodeIcon />
-    </Section>
+    </SectionStyle>
   );
 };
 
