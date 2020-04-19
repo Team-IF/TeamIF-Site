@@ -56,17 +56,24 @@ const MenuStyle = styled.div<{ isOpen?: boolean }>`
 
 const ATagStyle = styled.a`
   text-decoration: none;
+  cursor: pointer;
 `;
 
 const NavBar: React.FC = () => {
   const [isOpen, setOpen] = useState<boolean>(false);
 
+  const changeFullpage = (value: number) => {
+    // @ts-ignore
+    // eslint-disable-next-line no-undef
+    fullpage_api.moveTo(value);
+  };
+
   return (
     <NavStyle>
       <NavBarHeader>
-        <a href="#home">
+        <ATagStyle onClick={() => changeFullpage(1)}>
           <LogoStyle src={logo} />
-        </a>
+        </ATagStyle>
       </NavBarHeader>
 
       <MenuWrapper>
@@ -76,13 +83,13 @@ const NavBar: React.FC = () => {
       </MenuWrapper>
 
       <MenuStyle isOpen={isOpen}>
-        <ATagStyle href="#aboutUs">
+        <ATagStyle onClick={() => changeFullpage(2)}>
           <NavBarItem>About</NavBarItem>
         </ATagStyle>
-        <ATagStyle href="#members">
+        <ATagStyle onClick={() => changeFullpage(3)}>
           <NavBarItem>Members</NavBarItem>
         </ATagStyle>
-        <ATagStyle href="#support">
+        <ATagStyle onClick={() => changeFullpage(4)}>
           <NavBarItem>Support</NavBarItem>
         </ATagStyle>
       </MenuStyle>

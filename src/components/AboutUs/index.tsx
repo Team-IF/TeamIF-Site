@@ -86,7 +86,7 @@ const PanelListStyle = styled.div`
 
 const AboutUs: React.FC = () => {
   return (
-    <SectionStyle id="aboutUs">
+    <SectionStyle>
       <BodyStyle>
         <TitleStyle>
           We Are <span>Team IF</span>

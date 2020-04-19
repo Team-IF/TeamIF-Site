@@ -31,7 +31,7 @@ const SubTitleStyle = styled.p`
 
 const Jumbotron: React.FC = () => {
   return (
-    <BackgroundSectionStyle id="home" background={background}>
+    <BackgroundSectionStyle background={background}>
       <div>
         <TitleStyle>
           We Make <span>IF</span> to <span>Reality</span>, <span>Dream</span> to <span>Action</span>
