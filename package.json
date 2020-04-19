@@ -24,8 +24,7 @@
     "react-dom": "^16.13.1",
     "react-is": "16.13.1",
     "react-scripts": "3.4.1",
-    "styled-components": "^5.1.0",
-    "tailwindcss": "^1.2.0"
+    "styled-components": "^5.1.0"
   },
   "devDependencies": {
     "@testing-library/dom": "7.2.1",

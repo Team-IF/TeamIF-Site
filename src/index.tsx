@@ -3,10 +3,6 @@ import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import Home from './pages/Home';
 
-import 'tailwindcss/dist/base.css';
-import 'tailwindcss/dist/components.css';
-import 'tailwindcss/dist/utilities.css';
-
 ReactDOM.render(<Home />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
