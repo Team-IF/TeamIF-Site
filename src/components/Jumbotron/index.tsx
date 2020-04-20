@@ -34,7 +34,7 @@ const Jumbotron: React.FC = () => {
     <BackgroundSectionStyle background={background}>
       <div>
         <TitleStyle>
-          We Make <span>IF</span> to <span>Reality</span>, <span>Dream</span> to <span>Action</span>
+          We Make <span>IF</span> to <span>Reality</span>, <span>Dream</span> to <span>Action</span>.
         </TitleStyle>
         <SubTitleStyle>청소년 개발 팀 Team IF 입니다.</SubTitleStyle>
       </div>
