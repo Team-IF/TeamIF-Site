@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import Section from '../../atomics/Section';
-import background from '../../assets/images/background/backgroundFlow.jpg';
 import Circle from './Circle';
 
 interface ProfileData {
@@ -75,7 +74,8 @@ const Members: React.FC = () => {
     },
     {
       name: 'Red_Pixel_Block',
-      description: '평소에는 픽셀 아트만 하지만 프로그램도 하고 싶은 평범한(?) 빨강색 픽셀 블록 입니다',
+      description:
+        '평소에는 픽셀 아트만 하지만 프로그램도 하고 싶은 평범한(?) 빨강색 픽셀 블록 입니다',
       image: require('../../assets/images/profile/7.png'),
     },
     {
@@ -100,7 +100,8 @@ const Members: React.FC = () => {
     },
     {
       name: '라피스',
-      description: '고등학생 코린이 라피스입니다! 만들고 싶은 것들을 만들고, 배우고 싶은 것들을 배우고 있어요 :D',
+      description:
+        '고등학생 코린이 라피스입니다! 만들고 싶은 것들을 만들고, 배우고 싶은 것들을 배우고 있어요 :D',
       image: require('../../assets/images/profile/11.png'),
     },
     {
