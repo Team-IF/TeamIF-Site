@@ -103,12 +103,7 @@ const Members: React.FC = () => {
       description:
         '고등학생 코린이 라피스입니다! 만들고 싶은 것들을 만들고, 배우고 싶은 것들을 배우고 있어요 :D',
       image: require('../../assets/images/profile/11.png'),
-    },
-    {
-      name: '코딩보이',
-      description: '',
-      image: require('../../assets/images/profile/12.png'),
-    },
+    }
   ];
 
   return (
