@@ -9,6 +9,7 @@ const CircleStyle = styled.div`
   background-color: dodgerblue;
   margin-right: 1.5rem;
   margin-bottom: 2rem;
+  text-align: center;
 
   & > .circle-body {
     position: absolute;

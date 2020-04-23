@@ -74,7 +74,8 @@
         "error",
         "windows"
       ],
-      "import/extensions": "off"
+      "import/extensions": "off",
+      "global-require": "off"
     }
   },
   "browserslist": {
