@@ -64,7 +64,7 @@ const Members: React.FC = () => {
     },
     {
       name: 'Nrvnqsr Chaos',
-      description: '',
+      description: '열심히 개발하는 Team IF중 유일한 잉여',
       image: require('../../assets/images/profile/5.png'),
     },
     {
