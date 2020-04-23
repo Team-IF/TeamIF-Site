@@ -75,8 +75,8 @@ const SubTitleStyle = styled.p`
 const PanelListStyle = styled.div`
   display: flex;
   flex-direction: row;
-  margin-top: 4rem;
   overflow: hidden;
+  padding-top: 4rem;
 
   @media screen and (max-width: 720px) {
     flex-direction: column;
