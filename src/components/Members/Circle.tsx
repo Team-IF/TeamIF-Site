@@ -8,6 +8,7 @@ const CircleStyle = styled.div`
   border-radius: 50%;
   background-color: dodgerblue;
   margin-right: 1.5rem;
+  margin-bottom: 2rem;
 
   & > .circle-body {
     position: absolute;
@@ -40,10 +41,6 @@ const CircleStyle = styled.div`
     opacity: 1;
   }
 
-  &:last-child {
-    margin-right: 0;
-  }
-
   @media screen and (max-width: 720px) {
     width: 5rem;
     height: 5rem;
@@ -59,7 +56,7 @@ interface CircleProps {
 const Circle: React.FC<CircleProps> = ({ profile, children }) => {
   return (
     <CircleStyle>
-      <img className="circle-body" src={profile} alt="profile"/>
+      <img className="circle-body" src={profile} alt="profile" />
       <div className="circle-text">{children}</div>
     </CircleStyle>
   );
