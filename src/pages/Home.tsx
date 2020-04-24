@@ -10,7 +10,7 @@ const Home: React.FC = () => {
     <>
       <NavBar />
       <ReactFullpage
-        licensekey="OPEN-SOURCE-GPLV3-LICENSE"
+        licensekey="aN5yBGO^s8"
         scrollingSpeed={800}
         render={() => (
           <ReactFullpage.Wrapper>
