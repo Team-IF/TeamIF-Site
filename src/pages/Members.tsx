@@ -36,7 +36,7 @@ const CircleListStyle = styled.div`
   justify-content: center;
 `;
 
-const Memebers: React.FC = () => {
+const Members: React.FC = () => {
   return (
     <>
       <NavBar />
@@ -63,4 +63,4 @@ const Memebers: React.FC = () => {
   );
 };
 
-export default Memebers;
+export default Members;
