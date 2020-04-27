@@ -6,7 +6,6 @@ const CircleStyle = styled.div`
   width: 10rem;
   height: 10rem;
   border-radius: 50%;
-  background-color: dodgerblue;
   margin-right: 1.5rem;
   margin-bottom: 2rem;
   text-align: center;
@@ -21,6 +20,7 @@ const CircleStyle = styled.div`
     right: 0;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 50%;
   }
 
   & > .circle-text {
@@ -36,6 +36,7 @@ const CircleStyle = styled.div`
     left: 0;
     right: 0;
     transition: opacity ease-in-out 0.2s;
+    border-radius: 50%;
   }
 
   &:hover .circle-text {
@@ -43,8 +44,8 @@ const CircleStyle = styled.div`
   }
 
   @media screen and (max-width: 720px) {
-    width: 5rem;
-    height: 5rem;
+    width: 8rem;
+    height: 8rem;
     margin-right: 0.8rem;
     font-size: 0.8rem;
   }

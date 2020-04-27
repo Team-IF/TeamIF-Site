@@ -2,18 +2,24 @@ import React from 'react';
 import styled from 'styled-components';
 import NavBar from '../components/NavBar';
 import Circle from '../components/Members/Circle';
-import Section from '../atomics/Section';
 import { members, MemberData } from '../stores/MemberData';
 
-const SectionStyle = styled(Section)`
+const SectionStyle = styled.section`
   display: flex;
+  height: 100vh;
+  flex: 1;
   justify-content: center;
   align-items: center;
+
+  @media screen and (max-width: 720px) {
+    height: auto;
+    margin-top: 96px;
+  }
 `;
 
 const TitleStyle = styled.p`
   font-weight: bold;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   text-align: center;
 
   @media screen and (max-width: 720px) {
@@ -25,6 +31,7 @@ const ListWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 2rem;
 `;
 
 const CircleListStyle = styled.div`
@@ -32,8 +39,8 @@ const CircleListStyle = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   width: 80%;
-  margin-top: 2rem;
   justify-content: center;
+  overflow: hidden;
 `;
 
 const Members: React.FC = () => {
