@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import styled from 'styled-components';
+import { Link, useHistory } from 'react-router-dom';
 import NavBarHeader from '../../atomics/NavBar/NavBarHeader';
 import NavBarItem from '../../atomics/NavBar/NavBarItem';
 import logo from '../../assets/images/logo.png';
@@ -59,13 +60,22 @@ const ATagStyle = styled.a`
   cursor: pointer;
 `;
 
+const LinkTagStyle = styled(Link)`
+  text-decoration: none;
+  cursor: pointer;
+`;
+
 const NavBar: React.FC = () => {
   const [isOpen, setOpen] = useState<boolean>(false);
+  const history = useHistory();
 
   const changeFullpage = (value: number) => {
-    // @ts-ignore
-    // eslint-disable-next-line no-undef
-    fullpage_api.moveTo(value);
+    history.push('/');
+    setTimeout(() => {
+      // @ts-ignore
+      // eslint-disable-next-line no-undef
+      fullpage_api.moveTo(value);
+    }, 50);
   };
 
   return (
@@ -86,9 +96,9 @@ const NavBar: React.FC = () => {
         <ATagStyle onClick={() => changeFullpage(2)}>
           <NavBarItem>About</NavBarItem>
         </ATagStyle>
-        <ATagStyle onClick={() => changeFullpage(3)}>
+        <LinkTagStyle to="/members">
           <NavBarItem>Members</NavBarItem>
-        </ATagStyle>
+        </LinkTagStyle>
         <ATagStyle onClick={() => changeFullpage(4)}>
           <NavBarItem>Support</NavBarItem>
         </ATagStyle>
