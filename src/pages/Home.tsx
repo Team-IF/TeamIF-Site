@@ -2,7 +2,6 @@ import React from 'react';
 import ReactFullpage from '@fullpage/react-fullpage';
 import Jumbotron from '../components/Jumbotron';
 import AboutUs from '../components/AboutUs';
-import Members from '../components/Members';
 import NavBar from '../components/NavBar';
 
 const Home: React.FC = () => {
@@ -19,9 +18,6 @@ const Home: React.FC = () => {
             </div>
             <div className="section">
               <AboutUs />
-            </div>
-            <div className="section">
-              <Members />
             </div>
           </ReactFullpage.Wrapper>
         )}
