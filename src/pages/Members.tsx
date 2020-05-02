@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import NavBar from '../components/NavBar';
 import Circle from '../components/Members/Circle';
 import { members, MemberData } from '../stores/MemberData';
+import SectionTitle from '../atomics/SectionTitle';
 
 const SectionStyle = styled.section`
   display: flex;
@@ -14,16 +15,6 @@ const SectionStyle = styled.section`
   @media screen and (max-width: 720px) {
     height: auto;
     margin-top: 96px;
-  }
-`;
-
-const TitleStyle = styled.p`
-  font-weight: bold;
-  font-size: 2.2rem;
-  text-align: center;
-
-  @media screen and (max-width: 720px) {
-    font-size: 1.5rem;
   }
 `;
 
@@ -49,7 +40,7 @@ const Members: React.FC = () => {
       <NavBar />
       <SectionStyle>
         <div>
-          <TitleStyle>팀원 소개</TitleStyle>
+          <SectionTitle>팀원 소개</SectionTitle>
 
           <ListWrapper>
             <CircleListStyle>

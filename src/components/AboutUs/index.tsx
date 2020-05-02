@@ -13,6 +13,7 @@ import {
   BalloonAnimationC,
 } from '../../styles/BalloonAnimation';
 import CodeIcon from '../../atomics/Icons/CodeIcon';
+import SectionTitle from '../../atomics/SectionTitle';
 
 const IconStyle = styled.img`
   height: 40px;
@@ -62,16 +63,6 @@ const TitleStyle = styled.p`
   }
 `;
 
-const SubTitleStyle = styled.p`
-  font-weight: bold;
-  font-size: 1.8rem;
-  text-align: center;
-
-  @media screen and (max-width: 720px) {
-    font-size: 1.5rem;
-  }
-`;
-
 const PanelListStyle = styled.div`
   display: flex;
   flex-direction: row;
@@ -91,7 +82,7 @@ const AboutUs: React.FC = () => {
         <TitleStyle>
           We Are <span>Team IF</span>
         </TitleStyle>
-        <SubTitleStyle>팀 소개</SubTitleStyle>
+        <SectionTitle>팀 소개</SectionTitle>
 
         <PanelListStyle>
           <AnimationWrapper animation={BalloonAnimationA}>
