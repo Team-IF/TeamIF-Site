@@ -6,6 +6,8 @@ import { Link, useHistory } from 'react-router-dom';
 import NavBarHeader from '../../atomics/NavBar/NavBarHeader';
 import NavBarItem from '../../atomics/NavBar/NavBarItem';
 import logo from '../../assets/images/logo.png';
+import NoStyleA from "../../atomics/NoStyleA";
+import NoStyleLink from "../../atomics/NoStyleLink";
 
 const NavStyle = styled.nav`
   display: flex;
@@ -55,16 +57,6 @@ const MenuStyle = styled.div<{ isOpen?: boolean }>`
   }
 `;
 
-const ATagStyle = styled.a`
-  text-decoration: none;
-  cursor: pointer;
-`;
-
-const LinkTagStyle = styled(Link)`
-  text-decoration: none;
-  cursor: pointer;
-`;
-
 const NavBar: React.FC = () => {
   const [isOpen, setOpen] = useState<boolean>(false);
   const history = useHistory();
@@ -81,9 +73,9 @@ const NavBar: React.FC = () => {
   return (
     <NavStyle>
       <NavBarHeader>
-        <ATagStyle onClick={() => changeFullpage(1)}>
+        <NoStyleA onClick={() => changeFullpage(1)}>
           <LogoStyle src={logo} />
-        </ATagStyle>
+        </NoStyleA>
       </NavBarHeader>
 
       <MenuWrapper>
@@ -93,15 +85,15 @@ const NavBar: React.FC = () => {
       </MenuWrapper>
 
       <MenuStyle isOpen={isOpen}>
-        <ATagStyle onClick={() => changeFullpage(2)}>
+        <NoStyleA onClick={() => changeFullpage(2)}>
           <NavBarItem>About</NavBarItem>
-        </ATagStyle>
-        <LinkTagStyle to="/members">
+        </NoStyleA>
+        <NoStyleLink to="/members">
           <NavBarItem>Members</NavBarItem>
-        </LinkTagStyle>
-        <ATagStyle onClick={() => changeFullpage(4)}>
-          <NavBarItem>Support</NavBarItem>
-        </ATagStyle>
+        </NoStyleLink>
+        <NoStyleLink to="/career">
+          <NavBarItem>Career</NavBarItem>
+        </NoStyleLink>
       </MenuStyle>
     </NavStyle>
   );
