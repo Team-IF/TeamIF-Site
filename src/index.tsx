@@ -8,12 +8,11 @@ import Members from './pages/Members';
 import Career from './pages/Career';
 
 const index = (
-  <BrowserRouter>
+  <BrowserRouter basename="/">
     <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/members" component={Members} />
       <Route exact path="/career" component={Career} />
-      <Route component={Home} />
     </Switch>
   </BrowserRouter>
 );
