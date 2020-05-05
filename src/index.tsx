@@ -5,12 +5,14 @@ import { BrowserRouter } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 import Home from './pages/Home';
 import Members from './pages/Members';
+import Career from './pages/Career';
 
 const index = (
   <BrowserRouter>
     <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/members" component={Members} />
+      <Route exact path="/career" component={Career} />
     </Switch>
   </BrowserRouter>
 );
