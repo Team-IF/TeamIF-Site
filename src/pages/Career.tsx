@@ -8,12 +8,16 @@ const Container = styled.section`
   justify-content: center;
   align-items: center;
   background-color: #c0c0c0;
+
+  @media screen and (max-height: 540px) {
+    height: 100%;
+  }
 `;
 
 const FormStyle = styled.div`
   width: 38rem;
   height: 34.5rem;
-
+  
   @media screen and (max-width: 720px) {
     width: 20rem;
   }
@@ -46,24 +50,24 @@ const Career: React.FC = () => {
             <div className="window-body">
               <form action={FORM_API} method="post">
                 <div className="field-row-stacked">
-                  <LableStyle htmlFor="text18">디스코드 아이디</LableStyle>
-                  <input id="text18" type="text" required />
+                  <LableStyle>디스코드 아이디</LableStyle>
+                  <input type="text" pattern="/^((.+?)#\\d{4})/" required />
                 </div>
                 <div className="field-row-stacked">
-                  <LableStyle htmlFor="text19">이메일</LableStyle>
-                  <input id="text19" type="email" required />
+                  <LableStyle>이메일</LableStyle>
+                  <input type="email" required />
                 </div>
                 <div className="field-row-stacked">
-                  <LableStyle htmlFor="text19">GitHub 주소</LableStyle>
-                  <input id="text19" type="text" required />
+                  <LableStyle>GitHub 주소</LableStyle>
+                  <input type="text" required />
                 </div>
                 <div className="field-row-stacked">
-                  <LableStyle htmlFor="text19">나이</LableStyle>
-                  <input id="text19" type="text" />
+                  <LableStyle>나이</LableStyle>
+                  <input type="text" />
                 </div>
                 <div className="field-row-stacked">
-                  <LableStyle htmlFor="text19">자기소개</LableStyle>
-                  <textarea id="text19" maxLength={30} rows={20} required />
+                  <LableStyle>자기소개</LableStyle>
+                  <textarea maxLength={30} rows={20} required />
                 </div>
                 <br />
                 <button type="submit">지원하기</button>
