@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import styled from 'styled-components';
-import { Link, useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import NavBarHeader from '../../atomics/NavBar/NavBarHeader';
 import NavBarItem from '../../atomics/NavBar/NavBarItem';
 import logo from '../../assets/images/logo.png';
-import NoStyleA from "../../atomics/NoStyleA";
-import NoStyleLink from "../../atomics/NoStyleLink";
+import NoStyleA from '../../atomics/NoStyleA';
+import NoStyleLink from '../../atomics/NoStyleLink';
 
 const NavStyle = styled.nav`
   display: flex;
