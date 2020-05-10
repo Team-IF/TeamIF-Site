@@ -16,7 +16,7 @@ const Container = styled.section`
 
 const FormStyle = styled.div`
   width: 38rem;
-  height: 35.8rem;
+  height: 37rem;
 
   @media screen and (max-width: 720px) {
     width: 20rem;
@@ -48,19 +48,20 @@ const Career: React.FC = () => {
             </div>
 
             <div className="window-body">
-              <p>* 해당 페이지는 버그가 없습니다.</p>
+              <p>※ 해당 페이지는 버그가 없습니다.</p>
+              <p>* 필수</p>
               <br/>
               <form action={FORM_API} method="post">
                 <div className="field-row-stacked">
-                  <LableStyle>디스코드 아이디</LableStyle>
-                  <input type="text" name="discord" pattern="^((.+?)#\d{4})" required />
+                  <LableStyle>디스코드 아이디 *</LableStyle>
+                  <input type="text" name="discord" placeholder="닉네임#숫자네자리 형태" pattern="^((.+?)#\d{4})" required />
                 </div>
                 <div className="field-row-stacked">
-                  <LableStyle>이메일</LableStyle>
+                  <LableStyle>이메일 *</LableStyle>
                   <input type="email" name="email" required />
                 </div>
                 <div className="field-row-stacked">
-                  <LableStyle>GitHub 주소</LableStyle>
+                  <LableStyle>GitHub 주소 *</LableStyle>
                   <input
                     type="text"
                     name="github"
@@ -69,12 +70,12 @@ const Career: React.FC = () => {
                   />
                 </div>
                 <div className="field-row-stacked">
-                  <LableStyle>나이</LableStyle>
+                  <LableStyle>나이 *</LableStyle>
                   <input type="text" name="age" pattern="^[0-9]+$" required />
                 </div>
                 <div className="field-row-stacked">
-                  <LableStyle>자기소개</LableStyle>
-                  <textarea name="introduce" minLength={100} maxLength={30} rows={20} required />
+                  <LableStyle>자기소개 *</LableStyle>
+                  <textarea name="introduce" placeholder="100자 이상 작성" minLength={100} maxLength={30} rows={20} required />
                 </div>
                 <br />
                 <button type="submit">지원하기</button>
