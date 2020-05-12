@@ -27,7 +27,7 @@ const LableStyle = styled.label`
   font-size: 14px;
 `;
 
-const FORM_API = 'https://send.pageclip.co/WxQFpM94Pf8Om7EJL0SoQ8be6WXTSibP';
+const FORM_API = 'https://send.pageclip.co/WxQFpM94Pf8Om7EJL0SoQ8be6WXTSibP/recruit-form';
 
 const Career: React.FC = () => {
   return (
@@ -50,11 +50,17 @@ const Career: React.FC = () => {
             <div className="window-body">
               <p>※ 해당 페이지는 버그가 없습니다.</p>
               <p>* 필수</p>
-              <br/>
+              <br />
               <form action={FORM_API} method="post">
                 <div className="field-row-stacked">
                   <LableStyle>디스코드 아이디 *</LableStyle>
-                  <input type="text" name="discord" placeholder="닉네임#숫자네자리 형태" pattern="^((.+?)#\d{4})" required />
+                  <input
+                    type="text"
+                    name="discord"
+                    placeholder="닉네임#숫자네자리 형태"
+                    pattern="^((.+?)#\d{4})"
+                    required
+                  />
                 </div>
                 <div className="field-row-stacked">
                   <LableStyle>이메일 *</LableStyle>
@@ -75,7 +81,15 @@ const Career: React.FC = () => {
                 </div>
                 <div className="field-row-stacked">
                   <LableStyle>자기소개 *</LableStyle>
-                  <textarea name="introduce" placeholder="100자 이상 작성" minLength={100} maxLength={30} rows={20} required />
+                  <textarea
+                    name="introduce"
+                    style={{ resize: 'none' }}
+                    placeholder="100자 이상 작성"
+                    minLength={100}
+                    maxLength={30}
+                    rows={20}
+                    required
+                  />
                 </div>
                 <br />
                 <button type="submit">지원하기</button>
