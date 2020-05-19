@@ -67,4 +67,10 @@ export const members: MemberData[] = [
       '꿈꾸는 고등학생 프로그래머입니다!',
     image: require('../assets/images/profile/11.png'),
   },
+  {
+    name: ' Nitro',
+    description:
+      '배움을 받고 배움을 공유하는 개발자가 되고 싶습니다.',
+    image: require('../assets/images/profile/12.png'),
+  }
 ];
