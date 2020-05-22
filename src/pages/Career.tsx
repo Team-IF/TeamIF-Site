@@ -86,7 +86,7 @@ const Career: React.FC = () => {
                     style={{ resize: 'none' }}
                     placeholder="100자 이상 작성"
                     minLength={100}
-                    maxLength={30}
+                    maxLength={1000}
                     rows={20}
                     required
                   />
