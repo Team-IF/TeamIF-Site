@@ -36,9 +36,8 @@ export const members: MemberData[] = [
     image: require('../assets/images/profile/6.png'),
   },
   {
-    name: 'Red_Pixel_Block',
-    description:
-      '평소에는 픽셀 아트만 하지만 프로그램도 하고 싶은 평범한(?) 빨강색 픽셀 블록 입니다',
+    name: 'Star_Pixeller',
+    description: '',
     image: require('../assets/images/profile/7.png'),
   },
   {
