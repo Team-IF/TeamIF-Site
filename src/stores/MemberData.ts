@@ -99,12 +99,12 @@ export const members: MemberData[] = [
   },
   {
     name: '중딩 프로그래머',
-    description: '',
+    description: '웹 개발에 관심이 많은 중학생 프로그래머입니다!',
     image: require('../assets/images/profile/default_profile.png'),
   },
   {
     name: 'LEDAM',
-    description: '',
+    description: '파이썬은 빵과 태양',
     image: require('../assets/images/profile/rodine.png'),
   }
 ];
