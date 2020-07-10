@@ -84,17 +84,17 @@ export const members: MemberData[] = [
   },
   {
     name: '러리',
-    description: '',
+    description: '안녕하세요! 잡탕 러리입니다 :)  ',
     image: require('../assets/images/profile/doralife.png'),
   },
   {
-    name: 'Isomorphism',
-    description: '',
+    name: 'Tentacles',
+    description: '수학조아',
     image: require('../assets/images/profile/Isomorphism.png'),
   },
   {
     name: '키네틱',
-    description: '',
+    description: '마신 커피만큼 코드를 뽑아냅니다.',
     image: require('../assets/images/profile/Kinetic.png'),
   },
   {
