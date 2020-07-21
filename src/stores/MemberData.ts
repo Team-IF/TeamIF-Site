@@ -22,7 +22,7 @@ export const members: MemberData[] = [
   },
   {
     name: 'moole100',
-    description: '아무도 내가 프로그래밍 한다는것을 믿지 않는다.',
+    description: 'Return Python;',
     image: require('../assets/images/profile/moole100.png'),
   },
   {
