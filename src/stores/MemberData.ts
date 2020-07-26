@@ -106,5 +106,10 @@ export const members: MemberData[] = [
     name: 'LEDAM',
     description: '파이썬은 빵과 태양',
     image: require('../assets/images/profile/rodine.png'),
+  },
+  {
+    name: '암드빠인 고양이',
+    description: '프로그래밍에 관심이 많은 중학생 암고입니다',
+    image: require('../assets/images/profile/AMDCAT.png'),
   }
 ];
