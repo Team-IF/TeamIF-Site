@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/static/js/main.df944308.chunk.js",
+    "main.js": "/static/js/main.314b8f9a.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.c8cf082f.js",
     "static/js/2.4b2480d8.chunk.js": "/static/js/2.4b2480d8.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.c69434e476c1312c174a28fe46e8618c.js": "/precache-manifest.c69434e476c1312c174a28fe46e8618c.js",
+    "precache-manifest.1e083cc36a4a0e25ae27a2fbc5920b56.js": "/precache-manifest.1e083cc36a4a0e25ae27a2fbc5920b56.js",
     "service-worker.js": "/service-worker.js",
     "static/js/2.4b2480d8.chunk.js.LICENSE.txt": "/static/js/2.4b2480d8.chunk.js.LICENSE.txt",
-    "static/media/AMDCAT.png": "/static/media/AMDCAT.6e37006a.png",
+    "static/media/AMDCAT.png": "/static/media/AMDCAT.9e075b87.png",
     "static/media/Balloon.png": "/static/media/Balloon.6d5e71f9.png",
-    "static/media/Black_Angel.png": "/static/media/Black_Angel.7aeae122.png",
+    "static/media/Black_Angel.png": "/static/media/Black_Angel.a43af51f.png",
     "static/media/Gear.png": "/static/media/Gear.defb2531.png",
     "static/media/Iro.png": "/static/media/Iro.69d7fd64.png",
-    "static/media/Isomorphism.png": "/static/media/Isomorphism.3f560a2c.png",
+    "static/media/Isomorphism.png": "/static/media/Isomorphism.36767c7b.png",
     "static/media/Lapis.png": "/static/media/Lapis.8c0d092b.png",
     "static/media/NC.png": "/static/media/NC.f5137a35.png",
     "static/media/Nitro.png": "/static/media/Nitro.00f966ab.png",
@@ -20,12 +20,12 @@
     "static/media/SkyBim.png": "/static/media/SkyBim.a1afe9d3.png",
     "static/media/backgroundFlow.jpg": "/static/media/backgroundFlow.9dfca741.jpg",
     "static/media/default_profile.png": "/static/media/default_profile.39df6834.png",
-    "static/media/doralife.png": "/static/media/doralife.35d64a4f.png",
+    "static/media/doralife.png": "/static/media/doralife.41b4c09f.png",
     "static/media/logo.png": "/static/media/logo.f4b00829.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c8cf082f.js",
     "static/js/2.4b2480d8.chunk.js",
-    "static/js/main.df944308.chunk.js"
+    "static/js/main.314b8f9a.chunk.js"
   ]
 }
