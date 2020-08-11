@@ -63,7 +63,7 @@ export const members: MemberData[] = [
   {
     name: '라피스',
     description:
-      '꿈꾸는 고등학생 프로그래머입니다!',
+      '꾸준히 공부하고 성장하려 노력하는 학생 개발자입니다.',
     image: require('../assets/images/profile/Lapis.png'),
   },
   {
