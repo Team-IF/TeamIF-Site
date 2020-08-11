@@ -27,7 +27,7 @@ const LableStyle = styled.label`
   font-size: 14px;
 `;
 
-const FORM_API = 'https://send.pageclip.co/WxQFpM94Pf8Om7EJL0SoQ8be6WXTSibP/recruit-form';
+const FORM_API = '';
 
 const Career: React.FC = () => {
   return (
@@ -37,7 +37,7 @@ const Career: React.FC = () => {
         <div>
           <FormStyle className="window">
             <div className="title-bar">
-              <div className="title-bar-text">TeamIF 지원하기</div>
+              <div className="title-bar-text">TeamIF 지원하기 (모집 중단)</div>
               <div className="title-bar-controls">
                 <button type="button" aria-label="Minimize" />
                 <button type="button" aria-label="Maximize" />
@@ -48,7 +48,7 @@ const Career: React.FC = () => {
             </div>
 
             <div className="window-body">
-              <p>※ 해당 페이지는 버그가 없습니다.</p>
+              <p>※ 현재는 팀원 모집을 하지 않습니다.</p>
               <p>* 필수</p>
               <br />
               <form action={FORM_API} method="post">
@@ -84,7 +84,7 @@ const Career: React.FC = () => {
                   <textarea
                     name="introduce"
                     style={{ resize: 'none' }}
-                    placeholder="100자 이상 작성"
+                    placeholder="현재는 팀원 모집을 하지 않습니다."
                     minLength={100}
                     maxLength={1000}
                     rows={20}
@@ -92,7 +92,7 @@ const Career: React.FC = () => {
                   />
                 </div>
                 <br />
-                <button type="submit">지원하기</button>
+                <button type="submit" disabled>지원하기</button>
               </form>
             </div>
           </FormStyle>
