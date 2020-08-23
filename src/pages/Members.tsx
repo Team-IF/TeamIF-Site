@@ -2,8 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 import NavBar from '../components/NavBar';
 import Circle from '../components/Members/Circle';
-import { members, MemberData } from '../stores/MemberData';
+import { MemberData, members } from '../stores/MemberData';
 import SectionTitle from '../atomics/SectionTitle';
+import md5 from 'md5';
 
 const SectionStyle = styled.section`
   display: flex;
@@ -45,10 +46,16 @@ const Members: React.FC = () => {
           <ListWrapper>
             <CircleListStyle>
               {members.map((item: MemberData) => (
-                <Circle key={item.name} profile={item.image}>
+                <Circle
+                  key={item.name}
+                  profile={
+                    'http://www.gravatar.com/avatar/53ec214be49eba3d850ebec4ea809fd1' +
+                    md5(item.email)
+                  }
+                >
                   <div>
                     <b>{item.name}</b>
-                    <br />
+                    <br/>
                     {item.description}
                   </div>
                 </Circle>

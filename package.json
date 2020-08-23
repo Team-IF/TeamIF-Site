@@ -22,6 +22,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/react-fontawesome": "^0.1.9",
     "@fullpage/react-fullpage": "^0.1.17",
+    "npm": "^6.14.8",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-is": "16.13.1",

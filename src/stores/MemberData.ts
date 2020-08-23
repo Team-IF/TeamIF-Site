@@ -1,4 +1,5 @@
 export interface MemberData {
+  readonly email: string;
   readonly name: string;
   readonly description: string;
   readonly image: string;
@@ -62,15 +63,13 @@ export const members: MemberData[] = [
   },
   {
     name: '라피스',
-    description:
-      '꾸준히 공부하고 성장하려 노력하는 학생 개발자입니다.',
-    image: require('../assets/images/profile/Lapis.png'),
+    description: '꾸준히 공부하고 성장하려 노력하는 학생 개발자입니다.',
+    image: require('../assets/images/profile/Lapis.png')
   },
   {
     name: ' Nitro',
-    description:
-      '배움을 받고 배움을 공유하는 개발자가 되고 싶습니다.',
-    image: require('../assets/images/profile/Nitro.png'),
+    description: '배움을 받고 배움을 공유하는 개발자가 되고 싶습니다.',
+    image: require('../assets/images/profile/Nitro.png')
   },
   {
     name: '༺ৡۣۜ͜B̸1̷a̶c̵k̸A̸n̸g̶e̴1̸ৡۣۜ༻',
@@ -105,11 +104,11 @@ export const members: MemberData[] = [
   {
     name: 'LEDAM',
     description: '파이썬은 빵과 태양',
-    image: require('../assets/images/profile/rodine.png'),
+    image: require('../assets/images/profile/rodine.png')
   },
   {
     name: '암드빠인 고양이',
     description: '프로그래밍에 관심이 많은 중학생 암고입니다',
-    image: require('../assets/images/profile/AMDCAT.png'),
+    image: require('../assets/images/profile/AMDCAT.png')
   }
 ];
