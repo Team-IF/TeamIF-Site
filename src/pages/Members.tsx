@@ -55,7 +55,7 @@ const Members: React.FC = () => {
                 >
                   <div>
                     <b>{item.name}</b>
-                    <br/>
+                    <br />
                     {item.description}
                   </div>
                 </Circle>
