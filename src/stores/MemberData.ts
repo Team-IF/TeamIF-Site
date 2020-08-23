@@ -34,7 +34,7 @@ export const members: MemberData[] = [
     name: 'Nrvnqsr Chaos',
     description: '열심히 개발하는 Team IF중 유일한 잉여',
     image: require('../assets/images/profile/NC.png'),
-    email: ''
+    email: 'hy64ch18@isdedu.de'
   },
   {
     name: 'PatrickKR',
