@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/static/js/main.24cd2759.chunk.js",
+    "main.js": "/static/js/main.d3785101.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.c8cf082f.js",
-    "static/js/2.4b2480d8.chunk.js": "/static/js/2.4b2480d8.chunk.js",
+    "static/js/2.85440743.chunk.js": "/static/js/2.85440743.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.81032197e3f6f6683eff400ec28a3a9b.js": "/precache-manifest.81032197e3f6f6683eff400ec28a3a9b.js",
+    "precache-manifest.b77f32d98d9d102fe8f05079b1317275.js": "/precache-manifest.b77f32d98d9d102fe8f05079b1317275.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.4b2480d8.chunk.js.LICENSE.txt": "/static/js/2.4b2480d8.chunk.js.LICENSE.txt",
+    "static/js/2.85440743.chunk.js.LICENSE.txt": "/static/js/2.85440743.chunk.js.LICENSE.txt",
     "static/media/AMDCAT.png": "/static/media/AMDCAT.9e075b87.png",
     "static/media/Balloon.png": "/static/media/Balloon.6d5e71f9.png",
     "static/media/Black_Angel.png": "/static/media/Black_Angel.a43af51f.png",
@@ -25,7 +25,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c8cf082f.js",
-    "static/js/2.4b2480d8.chunk.js",
-    "static/js/main.24cd2759.chunk.js"
+    "static/js/2.85440743.chunk.js",
+    "static/js/main.d3785101.chunk.js"
   ]
 }

@@ -28,6 +28,13 @@ object-assign
  * Copyright (C) 2018 alvarotrigo.com - A project by Alvaro Trigo & Michael Walker
  */
 
+/*!
+ * Determine if an object is a Buffer
+ *
+ * @author   Feross Aboukhadijeh <https://feross.org>
+ * @license  MIT
+ */
+
 /**
   * Customized version of iScroll.js 0.1.3
   * It fixes bugs affecting its integration with fullpage.js
