@@ -82,7 +82,7 @@ export const members: MemberData[] = [
     name: 'Nitro',
     description: '배움을 받고 배움을 공유하는 개발자가 되고 싶습니다.',
     image: require('../assets/images/profile/Nitro.png'),
-    email: 'junpark0207@gmail.com'
+    email: 'admin@nitrostudio.dev'
   },
   {
     name: '༺ৡۣۜ͜B̸1̷a̶c̵k̸A̸n̸g̶e̴1̸ৡۣۜ༻',
