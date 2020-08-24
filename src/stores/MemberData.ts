@@ -34,7 +34,7 @@ export const members: MemberData[] = [
     name: 'Nrvnqsr Chaos',
     description: '열심히 개발하는 Team IF중 유일한 잉여',
     image: require('../assets/images/profile/NC.png'),
-    email: 'hy64ch18@isdedu.de'
+    email: 'jamfongcha@gmail.com'
   },
   {
     name: 'PatrickKR',
@@ -88,7 +88,7 @@ export const members: MemberData[] = [
     name: '༺ৡۣۜ͜B̸1̷a̶c̵k̸A̸n̸g̶e̴1̸ৡۣۜ༻',
     description: 'Developer',
     image: require('../assets/images/profile/Black_Angel.png'),
-    email: 'admin@b1ackange1.me'
+    email: 'zeus8502@gmail.com'
   },
   {
     name: 'F E Z',
@@ -130,6 +130,6 @@ export const members: MemberData[] = [
     name: '암드빠인 고양이',
     description: '프로그래밍에 관심이 많은 중학생 암고입니다',
     image: require('../assets/images/profile/AMDCAT.png'),
-    email: 'june2008a@gmail.com'
+    email: 'june2006a@gmail.com'
   }
 ];
