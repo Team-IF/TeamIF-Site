@@ -48,7 +48,7 @@ const Members: React.FC = () => {
               {members.map((item: MemberData) => (
                 <Circle
                   key={item.name}
-                  profile={'https://www.gravatar.com/avatar/' + md5(item.email) + '?s=1024'}
+                  profile={'https://www.gravatar.com/avatar/' + md5(item.email) + '?s=1024&d=https%3A%2F%2Fteamif%2Eio%2Fdefault_profile%2Epng'}
                 >
                   <div>
                     <b>{item.name}</b>
