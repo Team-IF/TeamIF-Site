@@ -45,8 +45,8 @@ export const members: MemberData[] = [
   {
     name: '청월이',
     description: '',
-    image: require('../assets/images/profile/SP.png'),
-    email: 'starpixeller@gmail.com'
+    image: require('../assets/images/profile/CheongWol.png'),
+    email: 'cheong7wol@gmail.com'
   },
   {
     name: '하늘빛',
