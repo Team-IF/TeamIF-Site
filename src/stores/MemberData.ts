@@ -43,7 +43,7 @@ export const members: MemberData[] = [
     email: 'mailpatrickkr@gmail.com'
   },
   {
-    name: 'Star_Pixeller',
+    name: '청월이',
     description: '',
     image: require('../assets/images/profile/SP.png'),
     email: 'starpixeller@gmail.com'
