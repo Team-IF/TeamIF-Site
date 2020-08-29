@@ -52,7 +52,7 @@ export const members: MemberData[] = [
     name: '하늘빛',
     description: '코드 스타일과 패턴에 관심이 많아요',
     image: require('../assets/images/profile/SkyBim.png'),
-    email: 'combbm@gmail.com'
+    email: 'skylightqp@teamif.io'
   },
   {
     name: 'ksi123456ab',
