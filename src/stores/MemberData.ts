@@ -131,5 +131,11 @@ export const members: MemberData[] = [
     description: '프로그래밍에 관심이 많은 중학생 암고입니다',
     image: require('../assets/images/profile/AMDCAT.png'),
     email: 'june2006a@gmail.com'
+  },
+  {
+    name: '키키',
+    description: '파이썬을 사랑하는 학생 개발자입니다',
+    image: require('../assets/images/profile/kiki.png'),
+    email: 'devkiki7000@gmail.com'
   }
 ];
