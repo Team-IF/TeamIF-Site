@@ -115,4 +115,9 @@ export const members: MemberData[] = [
     description: '파이썬을 사랑하는 학생 개발자입니다',
     email: 'devkiki7000@gmail.com',
   },
+  {
+    name: 'DIA',
+    description: '프로그래밍을 좋아하는 중학생입니다',
+    email: 'diaprvw@gmail.com',
+  },
 ];
