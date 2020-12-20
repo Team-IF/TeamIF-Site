@@ -100,4 +100,9 @@ export const members: MemberData[] = [
     description: '프로그래밍을 좋아하는 중학생입니다',
     email: 'diaprvw@gmail.com',
   },
+  {
+    name: 'Preta',
+    description: 'print((lambda: "Python <")()+__import__("sys").version[0]);',
+    email: 'preta@siro.dev',
+  },
 ];
