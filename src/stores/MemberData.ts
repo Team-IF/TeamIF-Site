@@ -31,11 +31,6 @@ export const members: MemberData[] = [
     email: 'jamfongcha@gmail.com',
   },
   {
-    name: 'PatrickKR',
-    description: '이것저것 하는 Patrick입니다. 반갑습니다.',
-    email: 'mailpatrickkr@gmail.com',
-  },
-  {
     name: '청월이',
     description: '',
     email: 'cheong7wol@gmail.com',
@@ -84,11 +79,6 @@ export const members: MemberData[] = [
     name: '키네틱',
     description: '마신 커피만큼 코드를 뽑아냅니다.',
     email: 'aheui@kakao.com',
-  },
-  {
-    name: 'Azure',
-    description: '프로그래밍에 관심이 많은 중학생 암고입니다',
-    email: 'june2006a@gmail.com',
   },
   {
     name: '키키',
