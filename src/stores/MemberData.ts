@@ -22,7 +22,7 @@ export const members: MemberData[] = [
   },
   {
     name: 'moole100',
-    description: 'Return Python;',
+    description: '자기 개발 하는 개발자',
     email: 'phmi162193@gmail.com',
   },
   {
