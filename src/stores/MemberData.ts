@@ -23,7 +23,7 @@ export const members: MemberData[] = [
   {
     name: 'SapoKR',
     description: 'Removed.',
-    email: 'phmi162193@gmail.com',
+    email: 'soundmusic1023@gmail.com',
   },
   {
     name: 'Nrvnqsr Chaos',
