@@ -21,8 +21,8 @@ export const members: MemberData[] = [
     email: 'gplnature@gmail.com',
   },
   {
-    name: 'moole100',
-    description: '자기 개발 하는 개발자',
+    name: 'SapoKR',
+    description: 'Removed.',
     email: 'phmi162193@gmail.com',
   },
   {
@@ -51,11 +51,6 @@ export const members: MemberData[] = [
     email: 'jaewonyu.dev@gmail.com',
   },
   {
-    name: '라피스',
-    description: '꾸준히 공부하고 성장하려 노력하는 학생 개발자입니다.',
-    email: 'lapis0875@gmail.com',
-  },
-  {
     name: 'Nitro',
     description: '배움을 받고 배움을 공유하는 개발자가 되고 싶습니다.',
     email: 'admin@nitrostudio.dev',
@@ -66,7 +61,7 @@ export const members: MemberData[] = [
     email: 'zeus8502@gmail.com',
   },
   {
-    name: 'F E Z',
+    name: 'naixt1478',
     description: '뇌절온 중2 개발자',
     email: 'qnqn60360@gmail.com',
   },
@@ -79,11 +74,6 @@ export const members: MemberData[] = [
     name: '키네틱',
     description: '마신 커피만큼 코드를 뽑아냅니다.',
     email: 'aheui@kakao.com',
-  },
-  {
-    name: '키키',
-    description: '파이썬을 사랑하는 학생 개발자입니다',
-    email: 'devkiki7000@gmail.com',
   },
   {
     name: 'DIA',
